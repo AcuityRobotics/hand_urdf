@@ -1,0 +1,23 @@
+Part,Quantity,Material,Notes
+Side Left,1,MJF,3D printed part
+Side Right,1,MJF,3D printed part
+Top,1,MJF,3D printed part
+Slider,2,MJF,3D printed part
+Finger,2,MJF,3D printed part
+Gear,1,MJF,3D printed part
+Mounting Adapter,1,MJF,3D printed part
+M3x12 sunken head ISO7991,6,N/A,Bolts for body
+M3x8 sunken head ISO7991,6,N/A,Bolts for body
+M3x20 sunken head ISO7991,10,N/A,Bolts for top
+M3x20 sunken head ISO7991,4,N/A,Bolts for finger and slider
+M3x18 socket head ISO4762,2,N/A,Bolts for finger and slider
+M2x15 socket head ISO4762,1,N/A,Bolts for finger and slider
+M2x20 socket head ISO4762,2,N/A,Bolts for finger and slider
+2x6mm cylinder pin DIN6325,4,N/A,Pins for finger and slider
+M3x6 button head ISO7380,8,N/A,Bolts for gear
+M3x14 socket head ISO4762,1,N/A,Bolts for gear
+M3x10 button head ISO7380,6,N/A,Bolts for adapter
+Foam rubber sheet 2-3mm,1,N/A,Gripper pads
+Double side tape,1,N/A,Gripper pads
+3M gripping material gray 25mm ~45cm,1,N/A,Gripper pads
+Feetech SM85CL Smart Servo,1,N/A,Servo

@@ -1,0 +1,50 @@
+Part,Quantity,Material,Description
+EN02-PALM_TOP,1,MJF,3D printed
+EN02-PALM_TOP_CAP,1,MJF,3D printed
+EN02-PALM_MIDHOUSING,1,MJF,3D printed
+EN02-PALM_BASE,1,MJF,3D printed
+EN02-MASTER_GEAR,1,MJF,3D printed
+EN02-SLAVE_GEAR,1,MJF,3D printed
+EN02-SLAVE_SHAFT,1,MJF,3D printed
+EN02-PWR,1,N/A,"EN02-POWER_BOARD, 5V OUTPUT, 20–36V INPUT"
+EN02-DXL_CABLE_S,3,N/A,"EHR cable for Dynamixel actuators, 15–16cm"
+EN02-DXL_CABLE_L,3,N/A,"EHR cable for Dynamixel actuators, 19–20cm"
+EN02-DXL_CABLE_J,1,N/A,"EHR cable for Dynamixel actuators, 5–6cm"
+EN02-PROXIMAL_PHALANX,1,MJF,3D printed
+EN02-MIDDLE_PHALANX,1,MJF,3D printed
+EN02-DISTAL_PHALANX,1,MJF,3D printed
+EN02-PROXIMAL_PHALANX-M,1,MJF,3D printed
+EN02-MIDDLE_PHALANX_M,1,MJF,3D printed
+EN02-DISTAL_PHALANX-M,1,MJF,3D printed
+EN02-THUMB_MIDDLE_PHALANX,1,MJF,3D printed
+EN02-THUMB_DISTAL_PHALANX,1,MJF,3D printed
+DYNAMIXEL XC/XL330-M288-T,7,N/A,servo actuator
+IDLER,7,MJF,3D printed
+THRUST_BEARING_16x30x1.5,3,N/A,thrust washer
+106ZZ,1,N/A,ball bearing
+126ZZ,2,N/A,ball bearing
+"METAL WASHER FOR FLATHEAD SCREW, M3",1,N/A,washer
+TRS-M3x8_FLAT,7,N/A,flat head thread-forming screw
+TRS-M2.2x12_FLAT,28,N/A,flat head thread-forming screw
+TRS-M2x5_FLAT_PHILLIPS,24,N/A,flat head screw
+TRS-M2.5x24_FLAT_PHILLIPS,2,N/A,flat head screw
+TRS-M3x12_FLAT,1,N/A,flat head screw
+TRS-M3x10_FLAT,8,N/A,flat head screw
+TRS-M2x8_FLAT_PHILLIPS,4,N/A,flat head screw
+TRS-M2.5x8_FLAT,1,N/A,flat head screw
+TRS-M4x10_ROUND,6,N/A,round head screw
+TRS-M4x12_FLAT,2,N/A,flat head screw
+TRS-M2.5x6_ROUND,1,N/A,round head screw
+DOWEL PIN 1.5x5,2,N/A,stainless steel dowel pin
+DOWEL PIN 1.5x10,6,N/A,stainless steel dowel pin
+DOWEL PIN 2x5,5,N/A,stainless steel dowel pin
+Spiral Wrap 4mm,1,N/A,cable management wrap
+M3x10 Rounded Torx Self Tapping Screw,9,N/A,Self tapping screw
+M3x5.7 Heat Set Insert,4,N/A,Brass threaded insert
+Feetech HLS3606M Servo Motor,7,N/A,Servo motor
+Servo Motor Mount Plate,1,N/A,Servo mounting plate
+Servo Motor Spline Screw M2.3x5,1,N/A,Servo spline screw
+Servo Motor Plate Screw M2x4,1,N/A,Mounting screw
+Connection Board and Cable,1,N/A,Electrical connection
+TTLinker Mini UART Signal Conversion Board,1,N/A,UART conversion board
+ESP32-S3,1,N/A,Microcontroller

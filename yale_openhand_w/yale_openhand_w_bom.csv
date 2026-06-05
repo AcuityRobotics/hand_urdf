@@ -1,0 +1,16 @@
+Item,Quantity,Material,Description
+93330A463 ALUM FEM THREAD ROUND STANDOFF 2.5IN,2,N/A,Stand off
+93330A463 ALUM FEM THREAD ROUND STANDOFF 2IN,6,N/A,Stand off
+XL-320,6,N/A,Motor
+6725K410 BALL BEARING CARRIAGE,2,N/A,Bearing
+2662N330_PLASTIC GEAR - 20 DEGREE PRESSURE ANGLE,4,N/A,Gear
+2662N110_PLASTIC GEAR - 20 DEGREE PRESSURE ANGLE,2,N/A,Gear
+57155K332 BALL BEARING,4,N/A,Bearing
+57155K329 BALL BEARING,4,N/A,Bearing
+94035A135_18-8 Stainless Steel Precision Shoulder Screw,16,N/A,Screw
+base_plate_with_racks_female_dovetail,1,MJF,base_link
+dovetail_male,1,MJF,base_link
+palm,1,MJF,base_link
+proximal_link_stubs,2,MJF,I2/r2
+proximal_motor_cap,2,MJF,l3/r3
+finger,2,MJF,l3/r3

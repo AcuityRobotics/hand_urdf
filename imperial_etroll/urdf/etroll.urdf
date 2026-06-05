@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="etroll">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0508045712459883 0.0733744230465092 0.10983051663196"
+        rpy="0 0 0" />
+      <mass
+        value="0.358050767521976" />
+      <inertia
+        ixx="0.000133063405309512"
+        ixy="-2.20908225793519E-06"
+        ixz="1.19458427860909E-07"
+        iyy="0.00042112354698649"
+        iyz="1.55271419219944E-07"
+        izz="0.000336569675200211" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l_0">
+    <inertial>
+      <origin
+        xyz="-0.00796792782565757 0.0242126099523312 -0.0855121197507773"
+        rpy="0 0 0" />
+      <mass
+        value="0.129970632845166" />
+      <inertia
+        ixx="9.19510544902433E-05"
+        ixy="4.13992519397044E-06"
+        ixz="-1.32884650464649E-05"
+        iyy="8.98759601961513E-05"
+        iyz="6.66243495222166E-06"
+        izz="3.66426901814052E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/l_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/l_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_0"
+    type="prismatic">
+    <origin
+      xyz="0.028412 -0.12477 0.10071"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="l_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l_1">
+    <inertial>
+      <origin
+        xyz="-0.015500248841829 0.065371722729672 0.00618440453409135"
+        rpy="0 0 0" />
+      <mass
+        value="0.0369966210371178" />
+      <inertia
+        ixx="3.6185327694131E-05"
+        ixy="4.19331287064406E-10"
+        ixz="3.71458603624092E-11"
+        iyy="7.57356336470262E-06"
+        iyz="-2.54018368615607E-06"
+        izz="3.95316502895547E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/l_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/l_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_1"
+    type="revolute">
+    <origin
+      xyz="0 0.04925 -0.0944"
+      rpy="0 0 0" />
+    <parent
+      link="l_0" />
+    <child
+      link="l_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_0">
+    <inertial>
+      <origin
+        xyz="-0.017200156837152 0.0282126100566413 0.0309679288666646"
+        rpy="0 0 0" />
+      <mass
+        value="0.129970632845174" />
+      <inertia
+        ixx="3.66426905774325E-05"
+        ixy="6.66243489053163E-06"
+        ixz="1.32884658706237E-05"
+        iyy="8.98759601961519E-05"
+        iyz="-4.13992529324848E-06"
+        izz="9.1951054094217E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/r_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/r_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_0"
+    type="prismatic">
+    <origin
+      xyz="0 -0.071773 0.096714"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="r_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_1">
+    <inertial>
+      <origin
+        xyz="-0.020500251807765 0.0653717059190886 0.00618458337447021"
+        rpy="0 0 0" />
+      <mass
+        value="0.0369966210371178" />
+      <inertia
+        ixx="3.61853276941321E-05"
+        ixy="4.19293334248902E-10"
+        ixz="3.71968641658599E-11"
+        iyy="7.57357717430988E-06"
+        iyz="-2.54027055407165E-06"
+        izz="3.95316364799464E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/r_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://etroll/meshes/r_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_1"
+    type="revolute">
+    <origin
+      xyz="-0.026088 0.05325 0.018"
+      rpy="0 1.5708 0" />
+    <parent
+      link="r_0" />
+    <child
+      link="r_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

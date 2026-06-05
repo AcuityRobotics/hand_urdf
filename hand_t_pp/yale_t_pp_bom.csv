@@ -1,0 +1,20 @@
+Item,Quantity,Material,Description
+Power Pro Spectra,1,N/A,Tendon
+PMC-780 Urethane,1,N/A,Finger joint urethane
+Vytaflex 30 Urethane,1,N/A,Finger pad urethane
+"Ø1/4”, L2-1/2” 8-32 zinc-plated female standoff",4,N/A,Support standoff
+"Ø1/4”, L1” steel dowel pin",4,N/A,Joint pin
+"Ø1/4”, L5/8” steel dowel pin",8,N/A,Joint pin for Pivot-Pivot
+"Ø1/8”, L1” steel dowel pin",4,N/A,Routing pin
+"Ø1/8”, L5/8” steel dowel pin",12,N/A,Tendon routing pin
+"Ø1/8”, L3/8” steel dowel pin",12,N/A,Tendon routing pin
+"8-32, L3/4” countersunk bolt",8,N/A,Support bolt
+"M2, L5 socket head bolt",2,N/A,Horn fastener
+"4-40, L0.135” heat-set insert",12,N/A,Insert for bolt anchors
+"4-40, L1/4” countersunk screw",12,N/A,Tendon/spring anchors
+"Torsion spring, 0.340"" OD, 0.028"" wire",4,N/A,Return spring
+"Extension spring, 0.188"" OD, L3/4""",8,N/A,Return spring (proximal alternative)
+Ø3/8” nylon pulley,9,N/A,Tendon-routing pulley
+Dynamixel XM430-W350-R,1,N/A,Actuator
+Pivot-Pivot finger distal link,4,MJF,Finger distal link
+Pivot-Pivot finger proximal link,4,MJF,Finger proximal link

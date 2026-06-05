@@ -1,0 +1,24 @@
+Part Name,Quantity,Material,Description
+M2.5 x 8mm screw,4,N/A,Fastener
+M2 x 4mm screw,8,N/A,Fastener
+M3 x 5mm cheese head screw,5,N/A,Fastener
+M2 x 10mm screw,4,N/A,Fastener
+M3 x 8mm cheese head screw,7,N/A,Fastener
+M4 x 10mm screw,4,N/A,Fastener
+M3 x 12mm screw,4,N/A,Fastener
+M3 x 10mm screw,4,N/A,Fastener
+"Brass insert, M3, 3mm length, OD 4.5mm",1,N/A,Fastener insert
+"Brass insert, M3, 5mm length, OD 4.5mm",15,N/A,Fastener insert
+GBM5208-75 motor,1,N/A,Motor
+"Shaft coupler, 8mm hole, M4 screw holes",1,N/A,Mechanical coupler
+MGN7C slider,2,N/A,Linear slider
+"Linear guide, 100mm",1,N/A,Linear guide
+"Magnet, 6mm diameter, 2.5mm thickness",1,N/A,Magnet
+Spectral micro BLDC driver,1,N/A,Motor driver
+"XH 2.54mm, 300mm, 2P cable",1,N/A,24V cable
+"ZH 1.5mm, 300mm, 2P cable",1,N/A,CAN bus cable
+Male 4-pin connector,1,N/A,Electrical connector
+"26AWG 0.15mm² 4-wire twisted pair, 0.4m",1,N/A,Cable
+4-pin male wire connector,1,N/A,Connector
+4-pin female wire connector,1,N/A,Connector
+Printed Gripper,1,MJF,3D Printed Gripper

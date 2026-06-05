@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="opengrip_step">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.145202053572822 -0.0137649525360845 -0.0682864686536235"
+        rpy="0 0 0" />
+      <mass
+        value="0.129722046655264" />
+      <inertia
+        ixx="6.12750631017743E-05"
+        ixy="1.58430562593227E-07"
+        ixz="-4.45615177969784E-09"
+        iyy="3.58451354573772E-05"
+        iyz="1.53547510514082E-05"
+        izz="6.20873517138207E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l_0">
+    <inertial>
+      <origin
+        xyz="-0.0321837779617845 -0.00534840603271549 0.0619339068466019"
+        rpy="0 0 0" />
+      <mass
+        value="0.0365331240629675" />
+      <inertia
+        ixx="1.87383310386987E-05"
+        ixy="-1.35629416503578E-06"
+        ixz="-5.4658717405624E-06"
+        iyy="3.87750998630464E-05"
+        iyz="-2.9220842112817E-06"
+        izz="2.34438955581158E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/l_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/l_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_0"
+    type="prismatic">
+    <origin
+      xyz="0.061576 0.076061 -0.032502"
+      rpy="-1.5708 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="l_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_0">
+    <inertial>
+      <origin
+        xyz="0.0692017087514484 -0.00534840613442033 0.0619339064756042"
+        rpy="0 0 0" />
+      <mass
+        value="0.0365331247563512" />
+      <inertia
+        ixx="1.87383314039295E-05"
+        ixy="-1.35629440835808E-06"
+        ixz="-5.46587263123559E-06"
+        iyy="3.87751026055379E-05"
+        iyz="-2.92208430574661E-06"
+        izz="2.34438979845991E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/r_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://opengrip_step/meshes/r_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_0"
+    type="prismatic">
+    <origin
+      xyz="0.12746 0.076061 -0.032494"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="r_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

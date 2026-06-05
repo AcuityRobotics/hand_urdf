@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="sphinx">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.160993854135216 0.362333487065214 0.152279178067663"
+        rpy="0 0 0" />
+      <mass
+        value="0.528336912243729" />
+      <inertia
+        ixx="0.000274434103549059"
+        ixy="1.64411721628022E-09"
+        ixz="4.88717452764832E-11"
+        iyy="0.000272698342888716"
+        iyz="5.81455737119071E-08"
+        izz="0.000476961383490203" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l1_0">
+    <inertial>
+      <origin
+        xyz="0.00331406040871501 0.0886240156650556 -0.010903559210299"
+        rpy="0 0 0" />
+      <mass
+        value="0.107388687759945" />
+      <inertia
+        ixx="0.000161278808830337"
+        ixy="-1.75146237462963E-05"
+        ixz="8.62086048476075E-07"
+        iyy="3.70427705350819E-05"
+        iyz="2.62607113779212E-05"
+        izz="0.000140962890149327" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l1_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l1_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l1_0"
+    type="revolute">
+    <origin
+      xyz="0.0879915918086171 0.404477705687583 0.179997917960645"
+      rpy="0.610865238198008 0.959931088596883 -0.523598775598296" />
+    <parent
+      link="base_link" />
+    <child
+      link="l1_0" />
+    <axis
+      xyz="0 0.573576436351042 0.819152044288995" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l1_1">
+    <inertial>
+      <origin
+        xyz="-1.34753319613878E-13 0.0505636856300308 -0.0088284196435483"
+        rpy="0 0 0" />
+      <mass
+        value="0.0241700044171919" />
+      <inertia
+        ixx="1.22659145066467E-05"
+        ixy="-1.2900311786683E-17"
+        ixz="-2.25084182656253E-17"
+        iyy="5.09752246835026E-06"
+        iyz="-5.46096049640932E-06"
+        izz="8.27824908050708E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l1_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l1_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l1_1"
+    type="revolute">
+    <origin
+      xyz="0 0.090452014644545 0.0511264401148552"
+      rpy="-0.760583880896279 -0.760583880896282 1.57079632679489" />
+    <parent
+      link="l1_0" />
+    <child
+      link="l1_1" />
+    <axis
+      xyz="0 0.689344545553636 -0.724433639138501" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l2_0">
+    <inertial>
+      <origin
+        xyz="0.00331395986857469 0.0520369238979916 -0.063155057249815"
+        rpy="0 0 0" />
+      <mass
+        value="0.107385437037816" />
+      <inertia
+        ixx="0.000161276608236914"
+        ixy="-1.75145900857525E-05"
+        ixz="8.62115690750971E-07"
+        iyy="3.70414745773499E-05"
+        iyz="2.62598955649622E-05"
+        izz="0.00014096195292699" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l2_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l2_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l2_0"
+    type="revolute">
+    <origin
+      xyz="0.188744475268857 0.37835160043188 0.216585309648852"
+      rpy="0.610865238198013 0.959931088596887 -2.61799387799148" />
+    <parent
+      link="base_link" />
+    <child
+      link="l2_0" />
+    <axis
+      xyz="0 0.573576436351044 0.819152044288994" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l2_1">
+    <inertial>
+      <origin
+        xyz="2.20379270388094E-13 0.0608393611093164 -0.019627148702718"
+        rpy="0 0 0" />
+      <mass
+        value="0.0241700044059592" />
+      <inertia
+        ixx="1.22659145060003E-05"
+        ixy="2.17196188334948E-17"
+        ixz="3.2016151340318E-17"
+        iyy="5.09752246764879E-06"
+        iyz="-5.46096049612112E-06"
+        izz="8.27824908007329E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l2_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l2_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l2_1"
+    type="revolute">
+    <origin
+      xyz="0 0.0435889474806317 0.00967295866786917"
+      rpy="-0.760583880896284 -0.760583880896279 1.5707963267949" />
+    <parent
+      link="l2_0" />
+    <child
+      link="l2_1" />
+    <axis
+      xyz="0 0.689344545553636 -0.7244336391385" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l3_0">
+    <inertial>
+      <origin
+        xyz="0.00331411297245374 0.0899311170156626 -0.00903686911508295"
+        rpy="0 0 0" />
+      <mass
+        value="0.10738901481" />
+      <inertia
+        ixx="0.000161279077395418"
+        ixy="-1.75147487224868E-05"
+        ixz="8.62135207214609E-07"
+        iyy="3.70428539311757E-05"
+        iyz="2.62607989747864E-05"
+        izz="0.000140963197889105" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l3_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l3_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l3_0"
+    type="revolute">
+    <origin
+      xyz="0.160993904392123 0.276167265516367 0.178690822549141"
+      rpy="0.610865238198013 0.959931088596888 1.57079632679489" />
+    <parent
+      link="base_link" />
+    <child
+      link="l3_0" />
+    <axis
+      xyz="0 0.573576436351044 0.819152044288993" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l3_1">
+    <inertial>
+      <origin
+        xyz="-6.40709707511178E-13 0.0577561450831961 -0.0163869904741603"
+        rpy="0 0 0" />
+      <mass
+        value="0.0241700044140298" />
+      <inertia
+        ixx="1.22659145064614E-05"
+        ixy="-6.31229069326402E-17"
+        ixz="-1.04358853085144E-16"
+        iyy="5.09752246813777E-06"
+        iyz="-5.46096049632959E-06"
+        izz="8.27824908038491E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l3_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sphinx/meshes/l3_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l3_1"
+    type="revolute">
+    <origin
+      xyz="0 0.084566650603847 0.060551736653553"
+      rpy="-0.760583880896285 -0.760583880896279 1.5707963267949" />
+    <parent
+      link="l3_0" />
+    <child
+      link="l3_1" />
+    <axis
+      xyz="0 0.689344545553636 -0.7244336391385" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

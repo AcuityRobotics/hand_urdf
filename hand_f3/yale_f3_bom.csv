@@ -1,0 +1,23 @@
+Item,Quantity,Material,Description
+Power Pro Spectra,1,N/A,Tendon
+PMC-780 Urethane,1,N/A,Finger Joint Urethane
+Dragon Skin 10 Silicone,1,N/A,Finger Pad Urethane
+"Ø1/4”, L1-1/2”, 8-32 zinc-plated female standoff",4,N/A,Support
+"Ø3mm, L32mm dowel pin",8,N/A,Joint pin
+"Shielded stainless steel ball bearing, 3mm shaft diameter",8,N/A,Joint ball bearings for reducing friction
+"8-32, L3/4” countersunk bolt",8,N/A,Support bolt
+"M2.5, L8mm bolt",2,N/A,Center bolt for Dynamixel
+"M2, L5mm bolt",4,N/A,Mounting bolts for Dynamixel
+"4-40, L0.135” heat-set insert",4,N/A,Insert for bolt anchors
+"4-40, L1/4” countersunk screw",4,N/A,Tendon/spring anchors
+Dynamixel XM430,2,N/A,Actuator
+Logitech C920x HD Pro Webcam,1,N/A,RGB Camera
+F3 finger (thin wall mold),2,MJF,Finger
+a1 part 1,1,MJF,Finger base with camera mount
+a1 part 2,1,MJF,Extended camera mount
+a2,1,MJF,Motor fixture top
+a3,1,MJF,Motor fixture bottom
+a4,1,MJF,Mount to robot arm
+b1,2,MJF,Tendon routing for motors
+d1,2,MJF,Case
+Bearing sleeve,8,MJF,Sleeve for ball bearings to prevent tendon from slipping

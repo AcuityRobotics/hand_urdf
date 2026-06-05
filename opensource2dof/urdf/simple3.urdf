@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="simple3">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0217648691728331 -0.00824232674128799 -0.010155307796504"
+        rpy="0 0 0" />
+      <mass
+        value="0.302424348076904" />
+      <inertia
+        ixx="8.75816437900381E-05"
+        ixy="-3.54870831415539E-06"
+        ixz="3.3278123486823E-06"
+        iyy="0.000149034547586271"
+        iyz="5.4809121976257E-06"
+        izz="0.000158130905640042" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l_0">
+    <inertial>
+      <origin
+        xyz="-0.0139773549914348 -0.0166454616266373 -0.160106504370432"
+        rpy="0 0 0" />
+      <mass
+        value="0.0127175448751228" />
+      <inertia
+        ixx="2.08709301268738E-06"
+        ixy="9.9021945173938E-08"
+        ixz="-4.79455622614048E-07"
+        iyy="2.25017947199794E-06"
+        iyz="5.49429900072558E-07"
+        izz="2.69882276458136E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/l_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/l_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_0"
+    type="prismatic">
+    <origin
+      xyz="0.016158 -0.020339 0.1471"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="l_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_0">
+    <inertial>
+      <origin
+        xyz="0.0290726433571439 -0.0166454616266373 -0.160106504370432"
+        rpy="0 0 0" />
+      <mass
+        value="0.0127175448751228" />
+      <inertia
+        ixx="2.08709301268739E-06"
+        ixy="9.90219451739371E-08"
+        ixz="-4.79455622614046E-07"
+        iyy="2.25017947199795E-06"
+        iyz="5.49429900072556E-07"
+        izz="2.69882276458137E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/r_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://simple3/meshes/r_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_0"
+    type="prismatic">
+    <origin
+      xyz="-0.015303 -0.020339 -0.16184"
+      rpy="-3.1416 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="r_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

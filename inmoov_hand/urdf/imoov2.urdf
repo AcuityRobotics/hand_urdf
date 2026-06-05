@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="imoov2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0395854733858584 -0.118734681059833 0.0917259298234958"
+        rpy="0 0 0" />
+      <mass
+        value="0.204557355553323" />
+      <inertia
+        ixx="0.000219269089197566"
+        ixy="-1.93109920935303E-07"
+        ixz="3.18683480919272E-06"
+        iyy="0.000343155840486432"
+        iyz="-2.72910489448563E-06"
+        izz="0.000133667538053643" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="thumb_0">
+    <inertial>
+      <origin
+        xyz="-0.00129794172022103 -0.0194981145646031 -0.000307915762879418"
+        rpy="0 0 0" />
+      <mass
+        value="0.0108672032176464" />
+      <inertia
+        ixx="1.67634476522624E-06"
+        ixy="-1.9013537682748E-09"
+        ixz="1.32029466416989E-10"
+        iyy="5.50331396997881E-07"
+        iyz="4.4396569847956E-09"
+        izz="1.70616817369079E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/thumb_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/thumb_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb_0"
+    type="revolute">
+    <origin
+      xyz="0.087807 -0.1227 0.11053"
+      rpy="0.65192 -0.75405 1.3805" />
+    <parent
+      link="base_link" />
+    <child
+      link="thumb_0" />
+    <axis
+      xyz="1 0.00021089 0.0002512" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="thumb_1">
+    <inertial>
+      <origin
+        xyz="-0.00147494264121832 0.0028914317565617 -0.0147218282413791"
+        rpy="0 0 0" />
+      <mass
+        value="0.00893185250619734" />
+      <inertia
+        ixx="5.32169072403586E-07"
+        ixy="4.57249291611598E-11"
+        ixz="-5.52103680968188E-10"
+        iyy="5.39789127998279E-07"
+        iyz="1.55587929735374E-08"
+        izz="4.03024454348859E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/thumb_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/thumb_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb_1"
+    type="revolute">
+    <origin
+      xyz="0 -0.034987 -0.001007"
+      rpy="-1.677 -0.0002512 0.00021089" />
+    <parent
+      link="thumb_0" />
+    <child
+      link="thumb_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_1_0">
+    <inertial>
+      <origin
+        xyz="0.0134847648542176 -0.0186688310834937 -0.000374802486355533"
+        rpy="0 0 0" />
+      <mass
+        value="0.0101380943278621" />
+      <inertia
+        ixx="1.44251998590902E-06"
+        ixy="1.77591109962472E-09"
+        ixz="1.72572645168603E-10"
+        iyy="4.85901873489349E-07"
+        iyz="2.36906372815661E-08"
+        izz="1.45287361544575E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_0"
+    type="revolute">
+    <origin
+      xyz="0.057447 -0.1219 0.036823"
+      rpy="1.542 -0.074329 0.00032029" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_1_0" />
+    <axis
+      xyz="1 6.3693E-05 0.00032128" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_1_1">
+    <inertial>
+      <origin
+        xyz="-0.010945741497989 0.013482127139823 -0.000930546005066937"
+        rpy="0 0 0" />
+      <mass
+        value="0.0050878040303955" />
+      <inertia
+        ixx="4.89021522080569E-07"
+        ixy="-1.25166756306724E-11"
+        ixz="-1.17123551291102E-10"
+        iyy="1.81767754376907E-07"
+        iyz="-6.00946501598828E-09"
+        izz="4.99464730105019E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_1"
+    type="revolute">
+    <origin
+      xyz="0.00234133192051551 -0.0349868831587002 -0.00100613555582905"
+      rpy="0.0119228680312218 0.000321432919110681 -3.14152666155475" />
+    <parent
+      link="finger_1_0" />
+    <child
+      link="finger_1_1" />
+    <axis
+      xyz="0.999999999997345 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_1_2">
+    <inertial>
+      <origin
+        xyz="0.0109946674663366 0.000257537373214961 0.0121241444712283"
+        rpy="0 0 0" />
+      <mass
+        value="0.00396315026245157" />
+      <inertia
+        ixx="1.51030086823453E-07"
+        ixy="5.11388519343536E-11"
+        ixz="2.75007688813601E-10"
+        iyy="1.53405522987401E-07"
+        iyz="-1.4334812178304E-08"
+        izz="1.09406702991618E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_1_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_2"
+    type="revolute">
+    <origin
+      xyz="0.000340950465999169 0.0249788766107058 -0.00101704657849791"
+      rpy="1.63667445305117 -0.00018735510101414 3.14159047757948" />
+    <parent
+      link="finger_1_1" />
+    <child
+      link="finger_1_2" />
+    <axis
+      xyz="0.999999982415328 -0.000187120100612656 1.24664625946811E-05" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_0">
+    <inertial>
+      <origin
+        xyz="0.0097363771795082 -0.0186690698289165 -0.00037600677042976"
+        rpy="0 0 0" />
+      <mass
+        value="0.0101380943278622" />
+      <inertia
+        ixx="1.44251998590902E-06"
+        ixy="1.77591109962435E-09"
+        ixz="1.72572645168633E-10"
+        iyy="4.8590187348935E-07"
+        iyz="2.36906372815661E-08"
+        izz="1.45287361544574E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_0"
+    type="revolute">
+    <origin
+      xyz="0.035893 -0.1219 0.028431"
+      rpy="1.542 7.2612E-05 0.00032185" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_2_0" />
+    <axis
+      xyz="1 6.3693E-05 0.00032128" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_1">
+    <inertial>
+      <origin
+        xyz="-0.0079976781802883 0.01348211957083 -0.000930565040464515"
+        rpy="0 0 0" />
+      <mass
+        value="0.00508780403039549" />
+      <inertia
+        ixx="4.89021522656175E-07"
+        ixy="-1.24713692007104E-11"
+        ixz="-1.17148500792812E-10"
+        iyy="1.81767754374417E-07"
+        iyz="-6.00946505822133E-09"
+        izz="4.99464729531897E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_1"
+    type="revolute">
+    <origin
+      xyz="0.0015411 -0.034987 -0.0010064"
+      rpy="0.011923 0.00032388 -3.1415" />
+    <parent
+      link="finger_2_0" />
+    <child
+      link="finger_2_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_2">
+    <inertial>
+      <origin
+        xyz="0.00770581433811263 0.00025815127895118 0.0121240386103014"
+        rpy="0 0 0" />
+      <mass
+        value="0.00396315026245157" />
+      <inertia
+        ixx="1.51030091469933E-07"
+        ixy="5.10186588229319E-11"
+        ixz="2.74654543528698E-10"
+        iyy="1.5340552301206E-07"
+        iyz="-1.43348125934478E-08"
+        izz="1.09406698320478E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_2_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_2"
+    type="revolute">
+    <origin
+      xyz="0 0.024979 -0.001017"
+      rpy="1.6347 -0.00018457 3.1416" />
+    <parent
+      link="finger_2_1" />
+    <child
+      link="finger_2_2" />
+    <axis
+      xyz="1 -0.00018732 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_3_0">
+    <inertial>
+      <origin
+        xyz="0.00959559818055215 -0.0186690787955295 -0.000376051999984778"
+        rpy="0 0 0" />
+      <mass
+        value="0.0101380943278621" />
+      <inertia
+        ixx="1.44251998590902E-06"
+        ixy="1.77591109962488E-09"
+        ixz="1.72572645168597E-10"
+        iyy="4.8590187348935E-07"
+        iyz="2.36906372815661E-08"
+        izz="1.45287361544575E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_3_0"
+    type="revolute">
+    <origin
+      xyz="0.0098609 -0.1219 0.0412"
+      rpy="1.5421 0.085236 0.00032597" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_3_0" />
+    <axis
+      xyz="1 6.3693E-05 0.00032128" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_3_1">
+    <inertial>
+      <origin
+        xyz="-0.00939540219882894 0.0134821215208011 -0.000930596259947458"
+        rpy="0 0 0" />
+      <mass
+        value="0.0050878040303955" />
+      <inertia
+        ixx="4.89021523346232E-07"
+        ixy="-1.24170662867753E-11"
+        ixz="-1.17178404499171E-10"
+        iyy="1.81767754371446E-07"
+        iyz="-6.00946510869746E-09"
+        izz="4.99464728844815E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_3_1"
+    type="revolute">
+    <origin
+      xyz="0 -0.0349870321222199 -0.00100688696036794"
+      rpy="0.0119227525352082 0.000326813692680966 -3.14152681640909" />
+    <parent
+      link="finger_3_0" />
+    <child
+      link="finger_3_1" />
+    <axis
+      xyz="0.999999999982393 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_3_2">
+    <inertial>
+      <origin
+        xyz="0.00910341944746399 0.000257891262617507 0.0121238414578733"
+        rpy="0 0 0" />
+      <mass
+        value="0.00396315026245157" />
+      <inertia
+        ixx="1.51030086823452E-07"
+        ixy="5.1138851934427E-11"
+        ixz="2.75007688813513E-10"
+        iyy="1.534055229874E-07"
+        iyz="-1.43348121783041E-08"
+        izz="1.09406702991617E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_3_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_3_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0249788773938257 -0.00101704663947298"
+      rpy="1.63609777029607 -0.000181976455303482 3.141590804723" />
+    <parent
+      link="finger_3_1" />
+    <child
+      link="finger_3_2" />
+    <axis
+      xyz="0.999999982415328 -0.000187120100606966 1.24664625944723E-05" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_4_0">
+    <inertial>
+      <origin
+        xyz="-0.00919582247553968 -0.0186702756743104 -0.000382089318051143"
+        rpy="0 0 0" />
+      <mass
+        value="0.0101380943278621" />
+      <inertia
+        ixx="1.44251998590902E-06"
+        ixy="1.7759110996246E-09"
+        ixz="1.72572645168487E-10"
+        iyy="4.85901873489349E-07"
+        iyz="2.36906372815662E-08"
+        izz="1.45287361544574E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_4_0"
+    type="revolute">
+    <origin
+      xyz="0.00443044947401956 -0.121904695293454 0.0553473193876343"
+      rpy="1.54207831883503 0.163939712584696 0.000325720754750775" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_4_0" />
+    <axis
+      xyz="0.999999946361018 6.36928276249997E-05 0.000321280538233148" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_4_1">
+    <inertial>
+      <origin
+        xyz="0.00758856590870088 0.013482085164998 -0.000930527872477854"
+        rpy="0 0 0" />
+      <mass
+        value="0.0050878040303955" />
+      <inertia
+        ixx="4.89021522539462E-07"
+        ixy="-1.24805551632205E-11"
+        ixz="-1.1714344223451E-10"
+        iyy="1.81767754374921E-07"
+        iyz="-6.00946504966757E-09"
+        izz="4.9946472964811E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_4_1"
+    type="revolute">
+    <origin
+      xyz="-0.00180490023484567 -0.0349871472439644 -0.00100746765959903"
+      rpy="0.0119228680661924 0.000323384102151108 -3.14152671770799" />
+    <parent
+      link="finger_4_0" />
+    <child
+      link="finger_4_1" />
+    <axis
+      xyz="0.999999999995272 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_4_2">
+    <inertial>
+      <origin
+        xyz="-0.00788054966979994 0.000261069304683351 0.0121236297278539"
+        rpy="0 0 0" />
+      <mass
+        value="0.00396315026245157" />
+      <inertia
+        ixx="1.51030086823453E-07"
+        ixy="5.11388519343242E-11"
+        ixz="2.75007688813471E-10"
+        iyy="1.534055229874E-07"
+        iyz="-1.43348121783042E-08"
+        izz="1.09406702991617E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://imoov2/meshes/finger_4_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_4_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0249788773938177 -0.00101704663967031"
+      rpy="1.6563550449496 -0.000185370794183099 3.14158686640927" />
+    <parent
+      link="finger_4_1" />
+    <child
+      link="finger_4_2" />
+    <axis
+      xyz="0.999999982415327 -0.000187120100612727 1.24664625945134E-05" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

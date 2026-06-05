@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="adaptiveelectric">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0449250426589663 0.09275236347722 0.0999940250530574"
+        rpy="0 0 0" />
+      <mass
+        value="0.0587386661476619" />
+      <inertia
+        ixx="1.30108830109E-05"
+        ixy="-1.24513843246382E-19"
+        ixz="-3.83620660524768E-06"
+        iyy="7.49186913129099E-05"
+        iyz="-1.38278128639265E-19"
+        izz="7.73182963160046E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l_0">
+    <inertial>
+      <origin
+        xyz="0.0178487025881449 0.0410373256860529 0.0565824673783226"
+        rpy="0 0 0" />
+      <mass
+        value="0.029369333073831" />
+      <inertia
+        ixx="8.21116101850702E-06"
+        ixy="4.60843047610723E-07"
+        ixz="6.33980118386531E-07"
+        iyy="7.38139543304804E-06"
+        iyz="-9.94377631157612E-07"
+        izz="3.6200481057404E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/l_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/l_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_0"
+    type="prismatic">
+    <origin
+      xyz="0.019587 -0.14434 0.1106"
+      rpy="0 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="l_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_0">
+    <inertial>
+      <origin
+        xyz="0.0178487025881449 0.0410373256860531 -0.018755680721784"
+        rpy="0 0 0" />
+      <mass
+        value="0.0293693330738309" />
+      <inertia
+        ixx="8.21116101850712E-06"
+        ixy="4.6084304761072E-07"
+        ixz="6.33980118386532E-07"
+        iyy="7.38139543304815E-06"
+        iyz="-9.94377631157589E-07"
+        izz="3.62004810574038E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/r_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adaptiveelectric/meshes/r_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_0"
+    type="prismatic">
+    <origin
+      xyz="-0.005075 -0.055646 0.1106"
+      rpy="3.1416 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="r_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Grasper_v4-1_2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.000379363610146216 -9.80834573543772E-08 0.0285589102199581"
+        rpy="0 0 0" />
+      <mass
+        value="0.164836164330788" />
+      <inertia
+        ixx="3.62542937440064E-05"
+        ixy="-1.19220738115126E-08"
+        ixz="1.85576242488928E-07"
+        iyy="3.7316461174133E-05"
+        iyz="4.19871540648818E-09"
+        izz="2.84834005178802E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l1_1">
+    <inertial>
+      <origin
+        xyz="-0.0178020744331292 0.00153243563396176 0.00808306717628198"
+        rpy="0 0 0" />
+      <mass
+        value="0.00568272124105257" />
+      <inertia
+        ixx="1.97743288940733E-07"
+        ixy="-2.92898105619454E-09"
+        ixz="8.74914244789485E-10"
+        iyy="5.97352168646446E-07"
+        iyz="-1.43926468989161E-09"
+        izz="5.66899826188981E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j1_1"
+    type="revolute">
+    <origin
+      xyz="-0.014955 0.0365 0.0555"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="l1_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l1_2">
+    <inertial>
+      <origin
+        xyz="-0.0178181674163244 0.00151288366539522 0.0079474068321109"
+        rpy="0 0 0" />
+      <mass
+        value="0.00565530375562818" />
+      <inertia
+        ixx="1.96509892883792E-07"
+        ixy="-2.81403912327179E-09"
+        ixz="-7.99488162326292E-10"
+        iyy="5.95138326649026E-07"
+        iyz="7.70916487664494E-10"
+        izz="5.6511875246953E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j1_2"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l1_1" />
+    <child
+      link="l1_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l1_3">
+    <inertial>
+      <origin
+        xyz="-0.0126473036433836 0.000121024348470861 0.00789927501486765"
+        rpy="0 0 0" />
+      <mass
+        value="0.0035628054826497" />
+      <inertia
+        ixx="1.00770609984124E-07"
+        ixy="-2.39251927631064E-09"
+        ixz="-1.08678505316323E-09"
+        iyy="3.00204388344335E-07"
+        iyz="5.62641371962788E-11"
+        izz="2.6966365290098E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l1_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j1_3"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l1_2" />
+    <child
+      link="l1_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l2_1">
+    <inertial>
+      <origin
+        xyz="-0.0178020744331293 0.0015324356339618 -0.00791693282371803"
+        rpy="0 0 0" />
+      <mass
+        value="0.00568272124105258" />
+      <inertia
+        ixx="1.97743288940733E-07"
+        ixy="-2.9289810561946E-09"
+        ixz="8.74914244788502E-10"
+        iyy="5.97352168646446E-07"
+        iyz="-1.43926468989151E-09"
+        izz="5.66899826188981E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j2_1"
+    type="revolute">
+    <origin
+      xyz="0.014955 0.008 0.0555"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="l2_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l2_2">
+    <inertial>
+      <origin
+        xyz="-0.0178181674163244 0.00151288366539518 -0.0080525931678891"
+        rpy="0 0 0" />
+      <mass
+        value="0.00565530375562816" />
+      <inertia
+        ixx="1.96509892883791E-07"
+        ixy="-2.81403912327173E-09"
+        ixz="-7.9948816232629E-10"
+        iyy="5.95138326649025E-07"
+        iyz="7.70916487664407E-10"
+        izz="5.65118752469529E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j2_2"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l2_1" />
+    <child
+      link="l2_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l2_3">
+    <inertial>
+      <origin
+        xyz="-0.0126473036433836 0.000121024348470833 -0.00810072498513235"
+        rpy="0 0 0" />
+      <mass
+        value="0.0035628054826497" />
+      <inertia
+        ixx="1.00770609984124E-07"
+        ixy="-2.39251927631045E-09"
+        ixz="-1.08678505316316E-09"
+        iyy="3.00204388344335E-07"
+        iyz="5.62641371962523E-11"
+        izz="2.6966365290098E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l2_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j2_3"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l2_2" />
+    <child
+      link="l2_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l3_1">
+    <inertial>
+      <origin
+        xyz="-0.0178020744331292 0.00153243563396185 0.00808306717628197"
+        rpy="0 0 0" />
+      <mass
+        value="0.00568272124105257" />
+      <inertia
+        ixx="1.97743288940733E-07"
+        ixy="-2.92898105619437E-09"
+        ixz="8.74914244789355E-10"
+        iyy="5.97352168646445E-07"
+        iyz="-1.43926468989158E-09"
+        izz="5.66899826188981E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j3_1"
+    type="revolute">
+    <origin
+      xyz="-0.014955 -0.0205 0.0555"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="l3_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l3_2">
+    <inertial>
+      <origin
+        xyz="-0.0178181674163244 0.00151288366539516 0.00794740683211093"
+        rpy="0 0 0" />
+      <mass
+        value="0.00565530375562818" />
+      <inertia
+        ixx="1.96509892883792E-07"
+        ixy="-2.81403912327189E-09"
+        ixz="-7.99488162326265E-10"
+        iyy="5.95138326649027E-07"
+        iyz="7.70916487664312E-10"
+        izz="5.65118752469531E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j3_2"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l3_1" />
+    <child
+      link="l3_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+  <link
+    name="l3_3">
+    <inertial>
+      <origin
+        xyz="-0.0126473036433836 0.000121024348470881 0.00789927501486764"
+        rpy="0 0 0" />
+      <mass
+        value="0.0035628054826497" />
+      <inertia
+        ixx="1.00770609984124E-07"
+        ixy="-2.39251927631023E-09"
+        ixz="-1.08678505316318E-09"
+        iyy="3.00204388344335E-07"
+        iyz="5.62641371961687E-11"
+        izz="2.6966365290098E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="grasperv4/meshes/l3_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="j3_3"
+    type="revolute">
+    <origin
+      xyz="-0.03 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="l3_2" />
+    <child
+      link="l3_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.48353"
+      upper="0"
+      effort="0"
+      velocity="1" />
+  </joint>
+</robot>

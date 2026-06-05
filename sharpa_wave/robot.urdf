@@ -1,0 +1,1114 @@
+<?xml version="1.0" ?>
+<robot name="left_sharpa_wave">
+  <material name="MJF_PA12">
+    <color rgba="0.54 0.55 0.55 1"/>
+  </material>
+  <link name="left_hand_C_MC">
+    <inertial>
+      <origin xyz="-0.0004775539398 -0.00291175393 -0.006598639855" rpy="0 0 0"/>
+      <mass value="0.3687474485"/>
+      <inertia ixx="0.0004534712589" ixy="-2.903126933e-06" ixz="7.535894336e-06" iyy="0.0003538508152" iyz="4.270646641e-05" izz="0.0002243555978"/>
+    </inertial>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_hand_C_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_hand_C_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm000.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm000.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm001.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm001.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm002.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm002.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm003.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm003.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm004.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm004.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm005.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm005.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm006.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm006.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm007.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm007.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm008.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm008.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm009.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm009.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm010.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm010.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm011.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm011.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm012.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm012.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm013.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm013.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm014.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm014.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm015.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm015.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm016.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm016.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm017.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm017.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm018.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm018.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm019.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm019.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm020.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm020.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm021.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm021.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm022.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm022.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm023.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm023.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm024.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm024.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm025.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm025.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm026.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm026.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm027.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm027.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm028.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm028.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm029.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm029.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm030.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm030.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm031.obj" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0003417985 0.0010805435 -0.05020848569" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/palm/palm031.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_thumb_CMC_VL">
+    <inertial>
+      <origin xyz="-0.001018933842 0.0001632708648 -5.154666541e-07" rpy="0 0 0"/>
+      <mass value="0.0009868598343"/>
+      <inertia ixx="8.085651146e-08" ixy="-7.23133031e-09" ixz="7.612227129e-12" iyy="5.573884688e-08" iyz="2.676263939e-12" izz="1.028488792e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_CMC_VL.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_CMC_VL.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_thumb_CMC_FE" type="revolute">
+    <parent link="left_hand_C_MC"/>
+    <child link="left_thumb_CMC_VL"/>
+    <origin xyz="0.0096582015 -0.0249194565 -0.02880848569" rpy="0 0 -1.570800569"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.1745" upper="1.9199" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_thumb_MC">
+    <inertial>
+      <origin xyz="0.03823433201 -0.01045719691 -0.01000038058" rpy="0 0 0"/>
+      <mass value="0.04859852929"/>
+      <inertia ixx="6.928202324e-06" ixy="-8.514591631e-07" ixz="-9.943790866e-08" iyy="1.49961259e-05" iyz="9.065951428e-07" izz="1.602830658e-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_thumb_CMC_AA" type="revolute">
+    <parent link="left_thumb_CMC_VL"/>
+    <child link="left_thumb_MC"/>
+    <origin xyz="0 -0.005 0" rpy="1.570799257 -0.7853998613 3.170222094e-07"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_thumb_MCP_VL">
+    <inertial>
+      <origin xyz="-0.002104358366 0.0001881006246 5.917406762e-06" rpy="0 0 0"/>
+      <mass value="0.000691867543"/>
+      <inertia ixx="5.715756391e-08" ixy="1.385353697e-09" ixz="-3.784879871e-12" iyy="2.731149831e-08" iyz="4.975667588e-13" izz="6.496880806e-08"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_thumb_MCP_FE" type="revolute">
+    <parent link="left_thumb_MC"/>
+    <child link="left_thumb_MCP_VL"/>
+    <origin xyz="0.065 -0.006 -0.010392" rpy="-0.5236005304 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.5236" upper="1.3963" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_thumb_PP">
+    <inertial>
+      <origin xyz="0.02594109831 4.38962948e-06 0.001003878334" rpy="0 0 0"/>
+      <mass value="0.01194278408"/>
+      <inertia ixx="6.544224605e-07" ixy="-7.899497528e-10" ixz="2.42942742e-08" iyy="1.509570214e-06" iyz="-3.657116275e-10" izz="1.442220579e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_thumb_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_thumb_MCP_AA" type="revolute">
+    <parent link="left_thumb_MCP_VL"/>
+    <child link="left_thumb_PP"/>
+    <origin xyz="0 0 0" rpy="1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_thumb_DP">
+    <inertial>
+      <origin xyz="0.01718583606 -0.002279896531 5.133457856e-07" rpy="0 0 0"/>
+      <mass value="0.005012380617"/>
+      <inertia ixx="2.032114192e-07" ixy="2.06032273e-08" ixz="4.290395657e-11" iyy="3.191244229e-07" iyz="-2.687742647e-12" izz="3.154581991e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_Visual_HB1_TH.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_Visual_HB1_TH.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_TH.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_TH.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_thumb_IP" type="revolute">
+    <parent link="left_thumb_PP"/>
+    <child link="left_thumb_DP"/>
+    <origin xyz="0.039 0 0" rpy="-1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.7453" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_index_MCP_VL">
+    <inertial>
+      <origin xyz="-0.000912575929 0.0001296364778 5.476136189e-09" rpy="0 0 0"/>
+      <mass value="0.0007920247737"/>
+      <inertia ixx="6.351054983e-08" ixy="1.914766186e-09" ixz="1.108217485e-12" iyy="3.947936575e-08" iyz="1.149040815e-12" izz="7.996423491e-08"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_index_MCP_FE" type="revolute">
+    <parent link="left_hand_C_MC"/>
+    <child link="left_index_MCP_VL"/>
+    <origin xyz="0.0006582015 -0.0292194565 0.04569151431" rpy="3.141590654 -1.570792327 1.570794327"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.174533" upper="1.5708" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_index_PP">
+    <inertial>
+      <origin xyz="0.03108917118 -1.141008733e-05 0.0005781553976" rpy="0 0 0"/>
+      <mass value="0.01406551054"/>
+      <inertia ixx="7.405084576e-07" ixy="7.465172846e-09" ixz="-5.798339642e-08" iyy="2.494117412e-06" iyz="8.685692795e-10" izz="2.412711548e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_index_MCP_AA" type="revolute">
+    <parent link="left_index_MCP_VL"/>
+    <child link="left_index_PP"/>
+    <origin xyz="0 0 0" rpy="1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_index_MP">
+    <inertial>
+      <origin xyz="0.01780859955 -0.001153974854 -1.23117414e-08" rpy="0 0 0"/>
+      <mass value="0.008093722434"/>
+      <inertia ixx="3.243625981e-07" ixy="-4.388541193e-08" ixz="-1.056193242e-12" iyy="8.647436031e-07" iyz="2.859283034e-12" izz="8.723000348e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_index_PIP" type="revolute">
+    <parent link="left_index_PP"/>
+    <child link="left_index_MP"/>
+    <origin xyz="0.047 0 0" rpy="-1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.7453" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_index_DP">
+    <inertial>
+      <origin xyz="0.01512187076 -0.001603524434 -2.007737174e-06" rpy="0 0 0"/>
+      <mass value="0.00343171465"/>
+      <inertia ixx="1.013974539e-07" ixy="3.953406082e-09" ixz="-5.832503662e-11" iyy="1.622122633e-07" iyz="-1.568145564e-11" izz="1.664251131e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_index_DIP" type="revolute">
+    <parent link="left_index_MP"/>
+    <child link="left_index_DP"/>
+    <origin xyz="0.0315 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.3963" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_middle_MCP_VL">
+    <inertial>
+      <origin xyz="-0.000912575929 0.0001296364778 5.476136189e-09" rpy="0 0 0"/>
+      <mass value="0.0007920247737"/>
+      <inertia ixx="6.351054983e-08" ixy="1.914766186e-09" ixz="1.108217485e-12" iyy="3.947936575e-08" iyz="1.149040815e-12" izz="7.996423491e-08"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_middle_MCP_FE" type="revolute">
+    <parent link="left_hand_C_MC"/>
+    <child link="left_middle_MCP_VL"/>
+    <origin xyz="-0.0003417985 -0.0089194565 0.04869151431" rpy="3.141590654 -1.570792327 1.570794327"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.174533" upper="1.5708" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_middle_PP">
+    <inertial>
+      <origin xyz="0.03108917118 -1.141008733e-05 0.0005781553976" rpy="0 0 0"/>
+      <mass value="0.01406551054"/>
+      <inertia ixx="7.405084576e-07" ixy="7.465172846e-09" ixz="-5.798339642e-08" iyy="2.494117412e-06" iyz="8.685692795e-10" izz="2.412711548e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_middle_MCP_AA" type="revolute">
+    <parent link="left_middle_MCP_VL"/>
+    <child link="left_middle_PP"/>
+    <origin xyz="0 0 0" rpy="1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_middle_MP">
+    <inertial>
+      <origin xyz="0.01780859955 -0.001153974854 -1.23117414e-08" rpy="0 0 0"/>
+      <mass value="0.008093722434"/>
+      <inertia ixx="3.243625981e-07" ixy="-4.388541193e-08" ixz="-1.056193242e-12" iyy="8.647436031e-07" iyz="2.859283034e-12" izz="8.723000348e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_middle_PIP" type="revolute">
+    <parent link="left_middle_PP"/>
+    <child link="left_middle_MP"/>
+    <origin xyz="0.047 0 0" rpy="-1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.7453" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_middle_DP">
+    <inertial>
+      <origin xyz="0.01512187076 -0.001603524434 -2.007737174e-06" rpy="0 0 0"/>
+      <mass value="0.00343171465"/>
+      <inertia ixx="1.013974539e-07" ixy="3.953406082e-09" ixz="-5.832503662e-11" iyy="1.622122633e-07" iyz="-1.568145564e-11" izz="1.664251131e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_middle_DIP" type="revolute">
+    <parent link="left_middle_MP"/>
+    <child link="left_middle_DP"/>
+    <origin xyz="0.0315 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.3963" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_ring_MCP_VL">
+    <inertial>
+      <origin xyz="-0.000912575929 0.0001296364778 5.476136189e-09" rpy="0 0 0"/>
+      <mass value="0.0007920247737"/>
+      <inertia ixx="6.351054983e-08" ixy="1.914766186e-09" ixz="1.108217485e-12" iyy="3.947936575e-08" iyz="1.149040815e-12" izz="7.996423491e-08"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_ring_MCP_FE" type="revolute">
+    <parent link="left_hand_C_MC"/>
+    <child link="left_ring_MCP_VL"/>
+    <origin xyz="0.0011582015 0.0113805435 0.04269151431" rpy="3.141590654 -1.570792327 1.570794327"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.174533" upper="1.5708" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_ring_PP">
+    <inertial>
+      <origin xyz="0.03108917118 -1.141008733e-05 0.0005781553976" rpy="0 0 0"/>
+      <mass value="0.01406551054"/>
+      <inertia ixx="7.405084576e-07" ixy="7.465172846e-09" ixz="-5.798339642e-08" iyy="2.494117412e-06" iyz="8.685692795e-10" izz="2.412711548e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_ring_MCP_AA" type="revolute">
+    <parent link="left_ring_MCP_VL"/>
+    <child link="left_ring_PP"/>
+    <origin xyz="0 0 0" rpy="1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_ring_MP">
+    <inertial>
+      <origin xyz="0.01780859955 -0.001153974854 -1.23117414e-08" rpy="0 0 0"/>
+      <mass value="0.008093722434"/>
+      <inertia ixx="3.243625981e-07" ixy="-4.388541193e-08" ixz="-1.056193242e-12" iyy="8.647436031e-07" iyz="2.859283034e-12" izz="8.723000348e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_ring_PIP" type="revolute">
+    <parent link="left_ring_PP"/>
+    <child link="left_ring_MP"/>
+    <origin xyz="0.047 0 0" rpy="-1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.7453" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_ring_DP">
+    <inertial>
+      <origin xyz="0.01512186819 -0.001603499799 -1.983102431e-06" rpy="0 0 0"/>
+      <mass value="0.00343171465"/>
+      <inertia ixx="1.013979577e-07" ixy="3.95309216e-09" ixz="-5.865405513e-11" iyy="1.622122974e-07" iyz="-1.593337274e-11" izz="1.664256504e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.570794327 -1.570792327 -3.141590654"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-1.570794327 -1.570792327 -3.141590654"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_ring_DIP" type="revolute">
+    <parent link="left_ring_MP"/>
+    <child link="left_ring_DP"/>
+    <origin xyz="0.0315 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.3963" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_pinky_MC">
+    <inertial>
+      <origin xyz="0.01119516715 0.006050206937 0.03221265597" rpy="0 0 0"/>
+      <mass value="0.08229479809"/>
+      <inertia ixx="1.865577046e-05" ixy="2.527973499e-07" ixz="-2.136666666e-07" iyy="2.564144608e-05" iyz="3.801269492e-07" izz="1.40129471e-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_pinky_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_pinky_MC_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_pinky_MC.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_pinky_MC.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_pinky_CMC" type="revolute">
+    <parent link="left_hand_C_MC"/>
+    <child link="left_pinky_MC"/>
+    <origin xyz="0.0110182015 0.0273805435 0.03669151431" rpy="3.141585307 0 -3.141585307"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="0.2618" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_pinky_MCP_VL">
+    <inertial>
+      <origin xyz="-0.000912575929 0.0001296364778 5.476136189e-09" rpy="0 0 0"/>
+      <mass value="0.0007920247737"/>
+      <inertia ixx="6.351054983e-08" ixy="1.914766186e-09" ixz="1.108217485e-12" iyy="3.947936575e-08" iyz="1.149040815e-12" izz="7.996423491e-08"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MCP_VL_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_pinky_MCP_FE" type="revolute">
+    <parent link="left_pinky_MC"/>
+    <child link="left_pinky_MCP_VL"/>
+    <origin xyz="0.00836 0.0048 0" rpy="1.570794327 1.570792327 -3.141590654"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.174533" upper="1.5708" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_pinky_PP">
+    <inertial>
+      <origin xyz="0.03108917118 -1.141008733e-05 0.0005781553976" rpy="0 0 0"/>
+      <mass value="0.01406551054"/>
+      <inertia ixx="7.405084576e-07" ixy="7.465172846e-09" ixz="-5.798339642e-08" iyy="2.494117412e-06" iyz="8.685692795e-10" izz="2.412711548e-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_PP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_pinky_MCP_AA" type="revolute">
+    <parent link="left_pinky_MCP_VL"/>
+    <child link="left_pinky_PP"/>
+    <origin xyz="0 0 0" rpy="1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.3491" upper="0.3491" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_pinky_MP">
+    <inertial>
+      <origin xyz="0.01780859955 -0.001153974854 -1.23117414e-08" rpy="0 0 0"/>
+      <mass value="0.008093722434"/>
+      <inertia ixx="3.243625981e-07" ixy="-4.388541193e-08" ixz="-1.056193242e-12" iyy="8.647436031e-07" iyz="2.859283034e-12" izz="8.723000348e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/left_MP_visual.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_pinky_PIP" type="revolute">
+    <parent link="left_pinky_PP"/>
+    <child link="left_pinky_MP"/>
+    <origin xyz="0.047 0 0" rpy="-1.570800569 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.7453" effort="10" velocity="10"/>
+  </joint>
+  <link name="left_pinky_DP">
+    <inertial>
+      <origin xyz="0.01512187076 -0.001603524434 -2.007737174e-06" rpy="0 0 0"/>
+      <mass value="0.00343171465"/>
+      <inertia ixx="1.013974539e-07" ixy="3.953406082e-09" ixz="-5.832503662e-11" iyy="1.622122633e-07" iyz="-1.568145564e-11" izz="1.664251131e-07"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/DP_visual_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="MJF_PA12"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796327 -1.570796327 0"/>
+      <geometry>
+        <mesh filename="meshes/elastomer_HB1_4F.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_pinky_DIP" type="revolute">
+    <parent link="left_pinky_MP"/>
+    <child link="left_pinky_DP"/>
+    <origin xyz="0.0315 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="1.3963" effort="10" velocity="10"/>
+  </joint>
+</robot>
