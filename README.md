@@ -1,3 +1,5 @@
+This repository is a collection of robotic hands/manipulators/end-effectors in URDF format. Many of the definitions are acquired premade in an URDF format or are converted from a different simulation format or created through CAD. All robots here should include an URDF (with inertias) and their respective meshes. In addition, a bill of materials (BoM) is supplied.
+
 | Name | Company | Original URL | BOM | License |
 |------|---------|--------------|-----|----------|
 | Model Q | Yale GRAB Lab | [Source](https://github.com/grablab/openhand-hardware/tree/master/model%20q) | ✅ | CC BY-NC 3.0 |
