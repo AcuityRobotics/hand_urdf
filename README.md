@@ -20,16 +20,16 @@ This repository is a collection of robotic hands/manipulators/end-effectors in U
 | E-Troll Gripper | Imperial College London | [Source](https://www.thingiverse.com/thing:5798680) | ✅ | CC BY 4.0 |
 | AR Gripper | Machinekoder | [Source](https://www.printables.com/model/657807-ar-gripper-open-hardware-adaptive-electric-paralle) | ✅ | |
 | NiTi Gripper (Grasper) | Acuity Robotics | | ✅ | |
-| Sphinx Hand | Yale GRAB Lab | [Source](https://github.com/grablab/openhand-hardware/tree/master/sphinx%20hand) | ✅ | |
+| Sphinx Hand | Yale GRAB Lab | [Source](https://github.com/grablab/openhand-hardware/tree/master/sphinx%20hand) | ✅ | CC BY-NC 3.0 |
 | Amazing Hand | Pollen Robotics | [Source](https://github.com/pollen-robotics/AmazingHand) | ✅ | CC BY 4.0 |
 | Aero Hand Open | Tether IA | [Source](https://github.com/TetherIA/aero-hand-open/tree/main/hardware/CAD) | ✅ | CC BY-SA 4.0 |
 | EN02-OP | Westwood Robotics | [Source](https://github.com/Westwood-Robotics/EN02-OP/tree/main/Design) | ✅ | GPL-3.0 |
 | 2F-85 | Robotiq | [Source](https://github.com/google-deepmind/mujoco_menagerie/tree/main/robotiq_2f85) | | Proprietary |
 | SHARPA Wave | SHARPA Robotics | [Source](https://github.com/google-deepmind/mujoco_menagerie/tree/main/sharpa_wave) | | Proprietary |
-| Allegro Hand | Wonik Robotics | [Source](https://github.com/dexsuite/dex-urdf) | | |
-| Shadow Hand | Shadow Robot Company | [Source](https://github.com/dexsuite/dex-urdf) | | |
-| SCHUNK SVH Hand | SCHUNK | [Source](https://github.com/dexsuite/dex-urdf) | | |
-| DClaw | OpenAI | [Source](https://github.com/dexsuite/dex-urdf) | | |
+| Allegro Hand | Wonik Robotics | [Source](https://github.com/dexsuite/dex-urdf) | | BSD |
+| Shadow Hand | Shadow Robot Company | [Source](https://github.com/dexsuite/dex-urdf) | | GPL-3.0 |
+| SCHUNK SVH Hand | SCHUNK | [Source](https://github.com/dexsuite/dex-urdf) | | Apache-2.0 |
+| DClaw | OpenAI | [Source](https://github.com/dexsuite/dex-urdf) | | Apache-2.0 |
 | CRAFT Hand | University of Illinois Urbana-Champaign | [Source](https://craft-hand.github.io/) | | |
-| Barrett Hand | Barrett Technology | [Source](https://github.com/dexsuite/dex-urdf) | | |
+| Barrett Hand | Barrett Technology | [Source](https://github.com/dexsuite/dex-urdf) | | BSD |
 | Ability Hand | Psyonic | [Source](https://github.com/dexsuite/dex-urdf) | | |
