@@ -11,7 +11,7 @@ This repository is a collection of robotic hands/manipulators/end-effectors in U
 | Amazing Hand | Pollen Robotics | [Source](https://github.com/pollen-robotics/AmazingHand) | ✅ | CC BY 4.0 |
 | AR Gripper | Machinekoder | [Source](https://www.printables.com/model/657807-ar-gripper-open-hardware-adaptive-electric-paralle) | ✅ | |
 | Barrett Hand | Barrett Technology | [Source](https://github.com/dexsuite/dex-urdf) | | BSD |
-| CRAFT Hand | University of Illinois Urbana-Champaign | [Source](https://craft-hand.github.io/) | | |
+| CRAFT Hand | University of Illinois Urbana-Champaign | [Source](https://craft-hand.github.io/) | | MIT |
 | DClaw | OpenAI | [Source](https://github.com/dexsuite/dex-urdf) | | Apache-2.0 |
 | DexHand | IoT Design Shop | [Source](https://github.com/iotdesignshop/dexhand-mechanical-build/tree/main) | ✅ | CC BY-NC-SA 4.0 |
 | EN02-OP | Westwood Robotics | [Source](https://github.com/Westwood-Robotics/EN02-OP/tree/main/Design) | ✅ | GPL-3.0 |
