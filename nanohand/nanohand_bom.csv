@@ -1,0 +1,20 @@
+Part Name,Quantity,Material,Description
+NVIDIA Jetson Nano 4GB development kit,1,N/A,Compute module
+Fully 3D printed hand,1,MJF,"Complete robotic hand, printed"
+"2mm ground steel pin, 10mm length",11,N/A,Steel pin for finger joints
+"2mm ground steel pin, 16-18mm length",16,N/A,Steel pin for finger joints
+"2mm ground steel pin, 20mm length",10,N/A,Steel pin for finger joints
+"2mm ground steel pin, 24mm length",21,N/A,Steel pin for finger joints
+"Sufix 832 SuperBraid, 80lbs",5m,N/A,Tendon for finger closure
+"Elastic bands, 15mm dia, ?3mm width",—,N/A,Finger opening elastic
+"PTFE tubing, 2mm OD, 1mm ID, 30cm",1,N/A,Tendon guide
+SCS0009 Micro Servo,10,N/A,Actuators for fingers and thumb
+FE-URT-1 Board,1,N/A,USB board for servo programming
+SCS15 SERVO,1,N/A,Additional actuator
+Micro USB cable,1,N/A,For FE-URT board connection
+Raspberry Pi V2 Camera,1,N/A,Palm-mounted camera
+"Raspberry Pi V2 Camera cable, 30cm",1,N/A,Extended camera cable
+5V 4A Universal Power Supply,1,N/A,Power for NVIDIA Jetson Nano
+2.5mm Barrel jack with flying leads,1,N/A,Connects FE-URT board to power
+6V 3A Universal Power Supply,1,N/A,Power for servos
+Jumper,1,N/A,Enable power jack on development kit

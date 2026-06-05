@@ -1,0 +1,18 @@
+Item,Quantity,Material,Description
+Power Pro Spectra,1,N/A,Tendon
+PMC-780 Urethane,1,N/A,Finger joint urethane
+Vytaflex 30 Urethane,1,N/A,Finger pad urethane
+"Ø1/4”, L1-1/2” 8-32 zinc-plated female standoff",4,N/A,Support
+"Ø1/4”, L1-1/4” steel dowel pin",7,N/A,Joint pin
+"Ø1/8”, L1-1/4” steel dowel pin",6,N/A,Routing pin
+"8-32, L3/4” countersunk bolt",8,N/A,Support bolt
+"M2.5, L8mm bolt",2,N/A,Center bolt for Dynamixel
+"M2, L5mm bolt",4,N/A,Mounting bolts for Dynamixel
+"4-40, L0.135” heat-set insert",7,N/A,Insert for bolt anchors
+"4-40, L1/4” countersunk screw",7,N/A,Tendon/spring anchors
+"Torsion spring, 0.340” OD, 0.028” wire",2,N/A,Return spring
+"Extension spring, 0.188” OD, L3/4”, 0.016” wire",5,N/A,Return spring
+"Dynamixel RX/MX-28, or RX24-F",2,N/A,Actuator
+Sunon DC 25×25×10 mm Fan 12V,1,N/A,Cooling fan for Dynamixel
+Pivot-Pivot finger distal link,2,MJF,Finger distal link
+Pivot-Pivot finger proximal link,2,MJF,Finger proximal link

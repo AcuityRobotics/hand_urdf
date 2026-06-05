@@ -1,0 +1,20 @@
+Part Name,Quantity,Material,Description
+DYNAMIXEL XC330-M288-T,16,N/A,Full Dynamixel motor for fingers and thumb
+DYNAMIXEL FPX330-H101,11,N/A,Dynamixel protective components
+DYNAMIXEL FPX330-S101,10,N/A,Dynamixel protective components
+DYNAMIXEL FPX330-S102,6,N/A,Dynamixel protective components
+DYNAMIXEL U2D2,1,N/A,USB adapter for Dynamixel servos
+M3 6mm 3D printer inserts,5,N/A,Fasteners for assembly
+M2 6mm 3D printer inserts,24,N/A,Fasteners for assembly
+M2 8mm screws,16,N/A,Fasteners for assembly
+M2 10mm screws,24,N/A,Fasteners for assembly
+M2 6mm screws,4,N/A,Fasteners for assembly
+M3 6mm screws,5,N/A,Fasteners for assembly
+Ninjaflex Edge (100g),1,N/A,Flexible fingertip material
+14 AWG 5V Cable,1,N/A,Wiring for power supply
+Palm Lower,1,MJF,3D printed palm component
+Palm Upper,1,MJF,3D printed palm component
+Cable Spacer,5,MJF,3D printed cable guide
+MCP Bracket,3,MJF,3D printed bracket for MCP joints
+DIP Spacer,3,MJF,3D printed spacer
+Fingertip (Soft or Hard),4,MJF,3D printed fingertip

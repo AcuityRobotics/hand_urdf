@@ -1,0 +1,23 @@
+Item,Quantity,Material,Description
+Dynamixel XM430-W350-R,4,N/A,Actuator
+Pivot-Pivot finger distal link,4,MJF,Finger distal link
+Pivot-Pivot finger proximal link,4,MJF,Finger proximal link
+"4-40, L0.135” heat-set insert",8,N/A,Insert for bolt anchors
+"4-40, L1/4” countersunk screw",8,N/A,Tendon/spring anchors
+"Ø1/8”, L5/8” steel dowel pin",8,N/A,Tendon routing pin
+"Ø1/4”, L5/8” steel dowel pin",2,N/A,Tendon routing pin
+"Extension spring, 0.188” OD, L3/4”, 0.016” wire diameter",4,N/A,Return spring
+"Torsion spring, 0.340” OD, 0.028” wire diameter",2,N/A,Return spring
+"Ø3/8”, nylon pulley",1,N/A,Tendon-routing pulley
+finger_ffff_q.stl,1,MJF,Power grasp fingers cutaway mold
+pivot_base.stl,2,MJF,Base for precision fingers
+top_outer.stl,1,MJF,Structure piece
+top_inner.stl,1,MJF,Base for power fingers
+pulley_block_half.stl,2,MJF,Component of pulley block
+mid_clamp.stl,1,MJF,Structure piece
+gear_main.stl,1,MJF,Main gear for power finger rotation
+gear_motor.stl,1,MJF,Gear to be attached to motor
+horn.stl,3,MJF,Pulley horn
+bottom_with_bridge.stl,1,MJF,Structure piece
+bottom_reroute.stl,1,MJF,Tendon rerouting piece
+bottom_brace_insert.stl,1,MJF,Brace insert

@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="nanohand">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.047217751225027 0.0159256893392409 0.111037419796179"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.53047736192483E-07"
+        ixy="2.65591897266381E-08"
+        ixz="-1.16663925734852E-07"
+        iyy="4.68766896032386E-07"
+        iyz="-6.10307760730535E-08"
+        izz="6.66264715929567E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="thumb1">
+    <inertial>
+      <origin
+        xyz="1.38777878078145E-17 -0.00566892030113506 -0.00555992843734113"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="7.54509795926667E-07"
+        ixy="-1.85288457211878E-22"
+        ixz="-3.97046694025453E-23"
+        iyy="4.82789473453058E-07"
+        iyz="-3.21879476053616E-09"
+        izz="4.50780078774707E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb1"
+    type="revolute">
+    <origin
+      xyz="0.052447 -0.11537 0.020044"
+      rpy="-0.21444 0.22667 -2.122" />
+    <parent
+      link="base_link" />
+    <child
+      link="thumb1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="thumb2">
+    <inertial>
+      <origin
+        xyz="2.77555756156289E-17 -0.0151117862384628 -0.0235782014369682"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="7.54509795926668E-07"
+        ixy="5.29395592033938E-23"
+        ixz="1.98523347012727E-22"
+        iyy="4.82288281617105E-07"
+        iyz="-5.1139313390611E-09"
+        izz="4.51281270610661E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb2"
+    type="revolute">
+    <origin
+      xyz="0 0.008 0.018883"
+      rpy="0.060075 0 0" />
+    <parent
+      link="thumb1" />
+    <child
+      link="thumb2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="thumb3">
+    <inertial>
+      <origin
+        xyz="-1.85699822627255E-05 -0.0587513005516435 -0.0213119092513232"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="7.54509768750541E-07"
+        ixy="-8.59919874369817E-11"
+        ixz="-1.53596468502585E-12"
+        iyy="4.82409815028313E-07"
+        iyz="-4.72969158077779E-09"
+        izz="4.5115976437558E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb3"
+    type="revolute">
+    <origin
+      xyz="0 0.043898 -0.0029931"
+      rpy="-0.012343 0 0.00031601" />
+    <parent
+      link="thumb2" />
+    <child
+      link="thumb3" />
+    <axis
+      xyz="1 -0.00031603 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="thumb4">
+    <inertial>
+      <origin
+        xyz="-0.000186670943177036 -0.0984610459523556 -0.00873188514543979"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="7.54508812500492E-07"
+        ixy="-5.18759201414355E-10"
+        ixz="-1.56898993081961E-11"
+        iyy="4.8086331796225E-07"
+        iyz="-8.26638248124643E-09"
+        izz="4.52707217691692E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/thumb4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thumb4"
+    type="revolute">
+    <origin
+      xyz="1.202E-05 0.037987 -0.00099966"
+      rpy="0.11851 -0.00022407 0.0015664" />
+    <parent
+      link="thumb3" />
+    <child
+      link="thumb4" />
+    <axis
+      xyz="1 -0.0018961 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="index1">
+    <inertial>
+      <origin
+        xyz="0.0873577767461267 0.0167105947390875 -0.0281296878376143"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="4.57850559841742E-07"
+        ixy="1.48227584435487E-08"
+        ixz="-4.17720718087652E-08"
+        iyy="5.3477591602921E-07"
+        iyz="-1.05824749336271E-07"
+        izz="6.95452872283481E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index1"
+    type="revolute">
+    <origin
+      xyz="0.073374 -0.096731 0.10432"
+      rpy="0.60813 1.4028 2.1137" />
+    <parent
+      link="base_link" />
+    <child
+      link="index1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="index2">
+    <inertial>
+      <origin
+        xyz="-0.0167105947390876 -0.0883828827104432 0.0263152999033027"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.34775916029211E-07"
+        ixy="7.64481637343229E-09"
+        ixz="-1.0658399749764E-07"
+        iyy="4.53306307562321E-07"
+        iyz="-2.53876132101547E-08"
+        izz="6.99997124562901E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index2"
+    type="revolute">
+    <origin
+      xyz="-0.0026 0 -0.0078411"
+      rpy="-3.074 0 -1.5708" />
+    <parent
+      link="index1" />
+    <child
+      link="index2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="index3">
+    <inertial>
+      <origin
+        xyz="-0.0167105947390877 -0.137527215586396 0.0219054538039989"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.34775916029211E-07"
+        ixy="1.36693668340335E-08"
+        ixz="-1.05979904464559E-07"
+        iyy="4.56968935843955E-07"
+        iyz="-3.91746451387225E-08"
+        izz="6.96334496281267E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index3"
+    type="revolute">
+    <origin
+      xyz="0 0.047683 -0.0033444"
+      rpy="-0.056669 0 0" />
+    <parent
+      link="index2" />
+    <child
+      link="index3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="index4">
+    <inertial>
+      <origin
+        xyz="-0.0167105947390875 -0.170254159111483 0.0320030555654413"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.34775916029211E-07"
+        ixy="8.71468237749917E-09"
+        ixz="-1.06501859378227E-07"
+        iyy="4.53841009391245E-07"
+        iyz="-2.78594872438728E-08"
+        izz="6.99462422733978E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/index4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index4"
+    type="revolute">
+    <origin
+      xyz="0 0.034034 -0.0021271"
+      rpy="0.046628 0 0" />
+    <parent
+      link="index3" />
+    <child
+      link="index4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="middle1">
+    <inertial>
+      <origin
+        xyz="0.0919094663121743 0.00294538538503542 -0.0278842257624429"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="4.58347549861727E-07"
+        ixy="1.47843734520022E-08"
+        ixz="-3.97738295543769E-08"
+        iyy="5.52823413964487E-07"
+        iyz="-1.18515555580097E-07"
+        izz="6.7690838432822E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="middle1"
+    type="revolute">
+    <origin
+      xyz="0.050878 -0.093046 0.11025"
+      rpy="0.072879 1.4644 1.6441" />
+    <parent
+      link="base_link" />
+    <child
+      link="middle1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="middle2">
+    <inertial>
+      <origin
+        xyz="-0.0029453853850354 -0.0917145521956051 0.0303815557826809"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.52823413964487E-07"
+        ixy="1.60144443161345E-09"
+        ixz="-1.19423406368098E-07"
+        iyy="4.52280931823546E-07"
+        iyz="-1.48063689736973E-08"
+        izz="6.829750023664E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="middle2"
+    type="revolute">
+    <origin
+      xyz="-0.0026 0 -0.0078203"
+      rpy="-3.0309 0 -1.5708" />
+    <parent
+      link="middle1" />
+    <child
+      link="middle2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="middle3">
+    <inertial>
+      <origin
+        xyz="-0.00294538538503544 -0.137545154074242 0.0317046890138711"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.52823413964487E-07"
+        ixy="3.21906993626681E-09"
+        ixz="-1.19390754254979E-07"
+        iyy="4.52724379082737E-07"
+        iyz="-1.79257515883503E-08"
+        izz="6.8253155510721E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="middle3"
+    type="revolute">
+    <origin
+      xyz="0 0.045388 -0.0031835"
+      rpy="-0.013547 0 0" />
+    <parent
+      link="middle2" />
+    <child
+      link="middle3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="middle4">
+    <inertial>
+      <origin
+        xyz="-0.00294538538503541 -0.168433602026932 0.040765202716892"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.52823413964487E-07"
+        ixy="-1.74411424513598E-09"
+        ixz="-1.1942140795656E-07"
+        iyy="4.51632814465807E-07"
+        iyz="-8.32416209773736E-09"
+        izz="6.8362311972414E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/middle4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="middle4"
+    type="revolute">
+    <origin
+      xyz="0 0.032437 -0.0020273"
+      rpy="0.04156 0 0" />
+    <parent
+      link="middle3" />
+    <child
+      link="middle4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="ring1">
+    <inertial>
+      <origin
+        xyz="0.0868358141423251 -0.0083533290532247 -0.0287321063509039"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="4.54533280483996E-07"
+        ixy="9.38897209867238E-10"
+        ixz="-1.82659873330089E-08"
+        iyy="5.7195311319791E-07"
+        iyz="-1.29400441868416E-07"
+        izz="6.61592954472527E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ring1"
+    type="revolute">
+    <origin
+      xyz="0.028305 -0.095621 0.10447"
+      rpy="-0.66584 1.3953 0.96936" />
+    <parent
+      link="base_link" />
+    <child
+      link="ring1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="ring2">
+    <inertial>
+      <origin
+        xyz="0.00835332905322464 -0.0871993334415516 0.0283155158989609"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.7195311319791E-07"
+        ixy="-1.09780351679276E-08"
+        ixz="-1.28937343805291E-07"
+        iyy="4.52939273751974E-07"
+        iyz="1.02514463363302E-09"
+        izz="6.6318696120455E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ring2"
+    type="revolute">
+    <origin
+      xyz="-0.0026 0 -0.0085646"
+      rpy="-3.0494 0 -1.5708" />
+    <parent
+      link="ring1" />
+    <child
+      link="ring2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="ring3">
+    <inertial>
+      <origin
+        xyz="0.00835332905322463 -0.134044648836408 0.0245713501383312"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.7195311319791E-07"
+        ixy="-4.26763507844356E-09"
+        ixz="-1.29333457289865E-07"
+        iyy="4.5339990641757E-07"
+        iyz="-9.8836072247936E-09"
+        izz="6.62726328538953E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ring3"
+    type="revolute">
+    <origin
+      xyz="0 0.045388 -0.0031835"
+      rpy="-0.051952 0 0" />
+    <parent
+      link="ring2" />
+    <child
+      link="ring3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="ring4">
+    <inertial>
+      <origin
+        xyz="0.00835332905322461 -0.164959948396847 0.034810128349048"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.7195311319791E-07"
+        ixy="-1.06669689298519E-08"
+        ixz="-1.28963450859387E-07"
+        iyy="4.52935551335182E-07"
+        iyz="5.17955732957389E-10"
+        izz="6.63190683621341E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/ring4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ring4"
+    type="revolute">
+    <origin
+      xyz="0 0.032437 -0.0020273"
+      rpy="0.04954 0 0" />
+    <parent
+      link="ring3" />
+    <child
+      link="ring4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="pinky1">
+    <inertial>
+      <origin
+        xyz="0.0778715896755996 -0.0228035361247301 -0.0306596317846281"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="4.54824792519032E-07"
+        ixy="-1.55849269749013E-08"
+        ixz="2.30497528269745E-09"
+        iyy="5.89195251750424E-07"
+        iyz="-1.34663802319283E-07"
+        izz="6.44059303884976E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="pinky1"
+    type="revolute">
+    <origin
+      xyz="0.0071746 -0.099512 0.092003"
+      rpy="-0.83297 1.3023 0.86927" />
+    <parent
+      link="base_link" />
+    <child
+      link="pinky1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="pinky2">
+    <inertial>
+      <origin
+        xyz="0.0228035361247302 -0.0784186687327891 0.0284186373762268"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.89195251750425E-07"
+        ixy="-2.64940602378457E-08"
+        ixz="-1.32948465113417E-07"
+        iyy="4.56452450210665E-07"
+        iyz="1.76259084713359E-08"
+        izz="6.42431646193344E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="pinky2"
+    type="revolute">
+    <origin
+      xyz="-0.0026 0 -0.0087181"
+      rpy="-3.0601 0 -1.5708" />
+    <parent
+      link="pinky1" />
+    <child
+      link="pinky2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="pinky3">
+    <inertial>
+      <origin
+        xyz="0.0228035361247302 -0.119125504049825 0.0320131001254164"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.89195251750425E-07"
+        ixy="-2.7302960943902E-08"
+        ixz="-1.32784705171928E-07"
+        iyy="4.56673952786991E-07"
+        iyz="1.87568242808247E-08"
+        izz="6.42210143617018E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="pinky3"
+    type="revolute">
+    <origin
+      xyz="0 0.0409 -0.0028686"
+      rpy="0.006088 0 0" />
+    <parent
+      link="pinky2" />
+    <child
+      link="pinky3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="pinky4">
+    <inertial>
+      <origin
+        xyz="0.0228035361247302 -0.14652403915087 0.0409155612467628"
+        rpy="0 0 0" />
+      <mass
+        value="0.00737492988596595" />
+      <inertia
+        ixx="5.89195251750425E-07"
+        ixy="-3.36430147414723E-08"
+        ixz="-1.31321655346729E-07"
+        iyy="4.58899108999112E-07"
+        iyz="2.75629124827571E-08"
+        izz="6.39984987404897E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://nanohand/meshes/pinky4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="pinky4"
+    type="revolute">
+    <origin
+      xyz="0 0.029193 -0.0018246"
+      rpy="0.048002 0 0" />
+    <parent
+      link="pinky3" />
+    <child
+      link="pinky4" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="hand_m2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00212247742799092 -0.000190346088314234 0.0260775069783168"
+        rpy="0 0 0" />
+      <mass
+        value="0.295146641644412" />
+      <inertia
+        ixx="0.000178243417317915"
+        ixy="2.23929548427028E-07"
+        ixz="4.6547677481535E-07"
+        iyy="0.000187477211048145"
+        iyz="1.39877697128628E-09"
+        izz="0.000342638785654023" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="l_0">
+    <inertial>
+      <origin
+        xyz="-1.76461147495905E-05 0.00369264198596364 -0.0280715613687438"
+        rpy="0 0 0" />
+      <mass
+        value="0.0209133032925023" />
+      <inertia
+        ixx="7.44762302304462E-06"
+        ixy="-6.95412504584306E-10"
+        ixz="1.15937578391567E-08"
+        iyy="8.96894755720361E-06"
+        iyz="-1.48298587310708E-08"
+        izz="2.24744851625388E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/l_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/l_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_0"
+    type="revolute">
+    <origin
+      xyz="0.01935 7.5E-05 0.067213"
+      rpy="-3.1416 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="l_0" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="l_1">
+    <inertial>
+      <origin
+        xyz="1.34170018845081E-18 0.0100976493826253 -0.0227215465332642"
+        rpy="0 0 0" />
+      <mass
+        value="0.0171940446900973" />
+      <inertia
+        ixx="2.33586018272412E-06"
+        ixy="-2.37584774154065E-22"
+        ixz="3.24491505112242E-22"
+        iyy="3.36239984843884E-06"
+        iyz="5.98339424688533E-07"
+        izz="1.84917878063005E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/l_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/l_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="l_1"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.0625"
+      rpy="0 0 0" />
+    <parent
+      link="l_0" />
+    <child
+      link="l_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="r_0">
+    <inertial>
+      <origin
+        xyz="-1.05167610731094E-17 -0.0475872512707244 0.00275327699688915"
+        rpy="0 0 0" />
+      <mass
+        value="0.0431334338592739" />
+      <inertia
+        ixx="3.60867268331495E-05"
+        ixy="-1.63790357028475E-20"
+        ixz="1.99489286510396E-21"
+        iyy="3.07251377814637E-06"
+        iyz="9.19374856983616E-07"
+        izz="3.75923298614849E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/r_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_m2/meshes/r_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="r_0"
+    type="fixed">
+    <origin
+      xyz="-0.023575 -0.000225 0.057863"
+      rpy="-1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="r_0" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

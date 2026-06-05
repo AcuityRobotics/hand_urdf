@@ -1,0 +1,12 @@
+Item,Quantity,Material,Description
+"Dynamixel RX/MX-28, or RX24-F",2,N/A,"Actuator, alternative to Power HD servo"
+"M2.5, L8mm bolt",2,N/A,Center bolt for Dynamixel
+"M2, L5mm bolt",4,N/A,Mounting bolts for Dynamixel
+"4-40, L0.135” heat-set insert",4,N/A,Insert for bolt anchors
+"4-40, L1/4” countersunk screw",4,N/A,Tendon/spring anchors
+"Ø1/8”, L1-1/4” steel dowel pin",4,N/A,Routing pin
+"Ø1/4”, L1-1/4” steel dowel pin",6,N/A,Joint pin
+"Extension spring, 0.188” OD, L3/4”, 0.016” wire diameter",4,N/A,"Return spring, alternative to torsion spring"
+Sunon DC 25x25x10mm Fan 12V,1,N/A,Cooling fan for Dynamixel servo
+Pivot-Pivot finger distal link,2,MJF,Finger distal link
+Pivot-Pivot finger proximal link,2,MJF,Finger proximal link

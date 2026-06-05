@@ -1,0 +1,50 @@
+Part,Quantity,Material,Description
+Finger Base,4,MJF,3D printed
+Finger MCP,4,MJF,3D printed
+Finger Proximal,4,MJF,3D printed
+Finger Medial,4,MJF,3D printed
+Finger Distal,4,MJF,3D printed
+Cable Spool,6,MJF,3D printed
+Thumb Abduction Upper Servo Disk,1,MJF,3D printed
+Thumb Abduction Lower Servo Disk,1,MJF,3D printed
+Thumb Abduction Linkage Bar,1,MJF,3D printed
+Thumb CMC Base,1,MJF,3D printed
+Thumb MCP,1,MJF,3D printed
+Thumb Proximal,1,MJF,3D printed
+Thumb Distal,1,MJF,3D printed
+Servo Frame,1,MJF,3D printed
+Palm Front Frame,1,MJF,3D printed
+Palm Rear Frame,1,MJF,3D printed
+Silicone Mold Top,1,MJF,3D printed
+Silicone Mold Bottom,1,MJF,3D printed
+Finger Distal Pad,4,N/A,Silicone cast pad
+Finger Proximal Pad,4,N/A,Silicone cast pad
+Thumb Distal Pad,1,N/A,Silicone cast pad
+Palm Frame Pad,1,N/A,Silicone cast pad
+Finger Distal/Medial and Thumb Proximal/Distal Return Spring,5,N/A,Return spring
+Finger Proximal/MCP Return Spring,4,N/A,Return spring
+Thumb CMC/MCP Return Spring,1,N/A,Return spring
+Finger Pull Cable,3,N/A,Actuation cable
+Pinky Pull Cable,1,N/A,Actuation cable
+Finger Coupling Cable,4,N/A,Coupling cable
+Thumb CMC Flex Cable,1,N/A,Actuation cable
+Thumb Pull Cable,1,N/A,Actuation cable
+Thumb Coupling Cable,1,N/A,Coupling cable
+2x5x2.5 Bearing,23,N/A,Miniature bearing
+1x10 Pin,16,N/A,Dowel pin
+2x14 Pin,12,N/A,Dowel pin
+2x20 Pin,2,N/A,Dowel pin
+Undersized 2x10 Pin,19,N/A,Undersized dowel pin
+Undersized 2x20 Pin,1,N/A,Undersized dowel pin
+Undersized 2x30 Pin,1,N/A,Undersized dowel pin
+M2x6 Flanged Torx Self Tapping Screw,25,N/A,Self tapping screw
+M2x10 Countersunk Torx Self Tapping Screw,12,N/A,Self tapping screw
+M3x10 Rounded Torx Self Tapping Screw,9,N/A,Self tapping screw
+M3x5.7 Heat Set Insert,4,N/A,Brass threaded insert
+Feetech HLS3606M Servo Motor,7,N/A,Servo motor
+Servo Motor Mount Plate,1,N/A,Servo mounting plate
+Servo Motor Spline Screw M2.3x5,1,N/A,Servo spline screw
+Servo Motor Plate Screw M2x4,1,N/A,Mounting screw
+Connection Board and Cable,1,N/A,Electrical connection
+TTLinker Mini UART Signal Conversion Board,1,N/A,UART conversion board
+ESP32-S3,1,N/A,Microcontroller

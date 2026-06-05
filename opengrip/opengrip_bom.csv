@@ -1,0 +1,16 @@
+Item,Quantity,Material,Description
+Dynamixel Servo XL430-W250,1,N/A,Actuator
+Constant Force Spring 0.1x8x110,2,N/A,Force Absorption in Gripper
+Linear Rail & Carriage 80 - MGN7C,2,N/A,Linear Actuator
+Nylon Belt 8in,1,N/A,Linear Actuator
+Silicone Padding 300x30x1,1,N/A,Gripper Interface
+Heat Set Inserts M2-M4,1,N/A,Fasteners
+M2 Flat Head 5mm,1,N/A,Fasteners
+Screws Cap,1,N/A,Fasteners
+Screws Flat,1,N/A,Fasteners
+Gripper_Structure.STL,1,MJF,3D Printed Gripper
+Gripper_Jaw.STL,2,MJF,3D Printed Gripper
+CF_Spring_Idler.STL,2,MJF,3D Printed Gripper
+CF_Spring_Idler_Cap.STL,2,MJF,3D Printed Gripper
+Gripper_Carriage_Mount.DXF or .STEP,1,N/A,3D Printed Gripper
+Gripper_Drive_Pulley.STL,1,MJF,3D Printed Gripper

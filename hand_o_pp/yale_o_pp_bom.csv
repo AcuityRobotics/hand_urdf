@@ -1,0 +1,22 @@
+Part Name,Quantity,Material,Description
+Power Pro Spectra,1,N/A,Tendon
+PMC-780 Urethane,1,N/A,Finger joint urethane
+Vytaflex 30 Urethane,1,N/A,Finger pad urethane
+"Ø1/4”, L2”, 8-32 zinc-plated female standoff",4,N/A,Support
+"Ø1/4”, L1-1/4” steel dowel pin",6,N/A,Joint pin
+"Ø1/4”, L5/8” steel dowel pin",6,N/A,Joint pin
+"Ø1/8”, L1-1/4” steel dowel pin",3,N/A,Routing pin
+"Ø1/8”, L5/8” steel dowel pin",6,N/A,Tendon routing pin
+"8-32, L3/4” countersunk bolt",8,N/A,Support bolt
+"M2, L5mm bolt",6,N/A,Mounting bolts for Dynamixel
+"M2, L3mm bolt",2,N/A,Mounting bolts for Dynamixel
+"4-40, L0.135” heat-set insert",26,N/A,Inserts for bolt anchors and PP links
+"4-40, L1/4” countersunk screw",13,N/A,Tendon/spring anchors and PP links
+"4-40, L1/2” countersunk screw",8,N/A,Fastener for palm
+"Torsion spring, 0.340” OD, 0.028” wire diameter",3,N/A,Return spring
+"Extension spring, 0.188” OD, L3/4”, 0.016” wire diameter",9,N/A,Return spring
+Dynamixel XM430,4,N/A,Actuator
+Pivot-Pivot finger distal link,3,MJF,Finger distal link
+Pivot-Pivot finger proximal link,3,MJF,Finger proximal link
+"Ø1/8”, L5/8” steel dowel pin",6,N/A,finger tendon routing pin
+"Ø1/4”, L5/8” steel dowel pin",3,N/A,finger joint pin

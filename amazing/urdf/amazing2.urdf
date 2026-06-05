@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="amazing2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0383222424984978 -0.121376608430465 0.190981647485694"
+        rpy="0 0 0" />
+      <mass
+        value="0.218111998705072" />
+      <inertia
+        ixx="0.000108065222148741"
+        ixy="9.56973104424154E-07"
+        ixz="5.25326381578732E-06"
+        iyy="0.000185355514099816"
+        iyz="7.64156602589412E-06"
+        izz="0.000133964637765315" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="f1_0">
+    <inertial>
+      <origin
+        xyz="-1.04083408558608E-15 1.11022302462516E-16 0.010786749309114"
+        rpy="0 0 0" />
+      <mass
+        value="0.00126219403334781" />
+      <inertia
+        ixx="4.18539334129258E-08"
+        ixy="-1.07533479631894E-23"
+        ixz="1.56128839255985E-23"
+        iyy="4.46269490497217E-08"
+        iyz="-1.11409840697788E-22"
+        izz="1.63785401076913E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f1_0"
+    type="revolute">
+    <origin
+      xyz="0.077981 -0.11106 0.22998"
+      rpy="-1.5708 -0.23562 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="f1_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f1_1">
+    <inertial>
+      <origin
+        xyz="0.000282991925153769 0.0280828491289625 0.00432477516439178"
+        rpy="0 0 0" />
+      <mass
+        value="0.0146864301344258" />
+      <inertia
+        ixx="2.8719135625795E-06"
+        ixy="-1.73181003070659E-11"
+        ixz="3.05871640767606E-11"
+        iyy="1.03931738465474E-06"
+        iyz="-2.37456883386106E-08"
+        izz="3.00198417905992E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f1_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.00900000000000001"
+      rpy="0 0 -3.14159265358979" />
+    <parent
+      link="f1_0" />
+    <child
+      link="f1_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f1_2">
+    <inertial>
+      <origin
+        xyz="0.00025101276038339 0.0188014793119722 0.00174551573107469"
+        rpy="0 0 0" />
+      <mass
+        value="0.00985973187077571" />
+      <inertia
+        ixx="1.32328001235084E-06"
+        ixy="-1.59074225368981E-11"
+        ixz="6.85174722909366E-12"
+        iyy="4.59848322573515E-07"
+        iyz="1.41605710463867E-07"
+        izz="1.33350415033556E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f1_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f1_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0519999999999994 0"
+      rpy="0.0411033834793374 0 0" />
+    <parent
+      link="f1_1" />
+    <child
+      link="f1_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f2_0">
+    <inertial>
+      <origin
+        xyz="1.1518563880486E-15 1.66533453693773E-16 0.0107867493091146"
+        rpy="0 0 0" />
+      <mass
+        value="0.00126219403334781" />
+      <inertia
+        ixx="4.18539334129258E-08"
+        ixy="-1.28212994945719E-23"
+        ixz="3.055510253948E-23"
+        iyy="4.46269490497218E-08"
+        iyz="-1.45212754719099E-22"
+        izz="1.63785401076912E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f2_0"
+    type="revolute">
+    <origin
+      xyz="0.045781 -0.11106 0.241"
+      rpy="-1.5708 -0.10472 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="f2_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f2_1">
+    <inertial>
+      <origin
+        xyz="0.000282991054678695 0.0280828463380384 0.0043247759064919"
+        rpy="0 0 0" />
+      <mass
+        value="0.014686435897259" />
+      <inertia
+        ixx="2.87191480149181E-06"
+        ixy="-1.74284797198197E-11"
+        ixz="3.06370604398288E-11"
+        iyy="1.0393177115994E-06"
+        iyz="-2.37455484347768E-08"
+        izz="3.00198521038707E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f2_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.00900000000000001"
+      rpy="0 0 3.14159265358979" />
+    <parent
+      link="f2_0" />
+    <child
+      link="f2_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f2_2">
+    <inertial>
+      <origin
+        xyz="0.000250737248170072 0.0188012896085922 0.00174558095019568"
+        rpy="0 0 0" />
+      <mass
+        value="0.00985928253151739" />
+      <inertia
+        ixx="1.32327491679835E-06"
+        ixy="-9.62498151314611E-12"
+        ixz="4.13956701577724E-12"
+        iyy="4.5982406106813E-07"
+        iyz="1.4160388080634E-07"
+        izz="1.33348191692772E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f2_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f2_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0519999999999889 0"
+      rpy="0.0411033834793374 0 0" />
+    <parent
+      link="f2_1" />
+    <child
+      link="f2_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f3_0">
+    <inertial>
+      <origin
+        xyz="5.20417042793042E-18 -2.77555756156289E-17 0.0107867493091146"
+        rpy="0 0 0" />
+      <mass
+        value="0.0012621940333478" />
+      <inertia
+        ixx="4.18539334129258E-08"
+        ixy="-9.84826348297746E-24"
+        ixz="7.72374622283135E-24"
+        iyy="4.46269490497217E-08"
+        iyz="-7.81658371504551E-23"
+        izz="1.63785401076913E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f3_0"
+    type="revolute">
+    <origin
+      xyz="0.012981 -0.11106 0.24704"
+      rpy="-1.5708 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="f3_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f3_1">
+    <inertial>
+      <origin
+        xyz="0.000282998622789139 0.0280828428010496 0.00432477713972666"
+        rpy="0 0 0" />
+      <mass
+        value="0.0146864314859808" />
+      <inertia
+        ixx="2.87191486415596E-06"
+        ixy="-1.59726594776692E-11"
+        ixz="3.03054392314201E-11"
+        iyy="1.03931795932275E-06"
+        iyz="-2.37451779920869E-08"
+        izz="3.00198541395905E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f3_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.00900000000000026"
+      rpy="0 0 3.14159265358979" />
+    <parent
+      link="f3_0" />
+    <child
+      link="f3_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f3_2">
+    <inertial>
+      <origin
+        xyz="0.000250726043844691 0.0188011751413729 0.00174561586236921"
+        rpy="0 0 0" />
+      <mass
+        value="0.00985922167696453" />
+      <inertia
+        ixx="1.32327401643037E-06"
+        ixy="-1.00922907323032E-11"
+        ixz="5.21085468855013E-12"
+        iyy="4.59823786559468E-07"
+        iyz="1.41604545776127E-07"
+        izz="1.33347750011615E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f3_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f3_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0519999999999999 0"
+      rpy="0.0411033834793374 0 0" />
+    <parent
+      link="f3_1" />
+    <child
+      link="f3_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f4_0">
+    <inertial>
+      <origin
+        xyz="3.46944695195361E-18 -1.38777878078145E-17 -0.0117132506908854"
+        rpy="0 0 0" />
+      <mass
+        value="0.00126219403334781" />
+      <inertia
+        ixx="4.18539334129258E-08"
+        ixy="-1.73707928636136E-23"
+        ixz="2.96612483133844E-23"
+        iyy="4.46269490497218E-08"
+        iyz="-9.40786159081791E-23"
+        izz="1.63785401076912E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f4_0"
+    type="revolute">
+    <origin
+      xyz="0.0129805006757312 -0.0794825805195891 0.160042417928581"
+      rpy="3.14159265358979 0 0.349065850398869" />
+    <parent
+      link="base_link" />
+    <child
+      link="f4_0" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f4_1">
+    <inertial>
+      <origin
+        xyz="0.000284324598828699 0.0278565050302046 0.00431781482459029"
+        rpy="0 0 0" />
+      <mass
+        value="0.0146864332399776" />
+      <inertia
+        ixx="2.87191308197058E-06"
+        ixy="-1.54341618731345E-11"
+        ixz="-3.05356386526491E-11"
+        iyy="1.04038772048127E-06"
+        iyz="-4.11234957936529E-08"
+        izz="3.00091443443456E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f4_1"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.0135"
+      rpy="0 0 3.14159265358979" />
+    <parent
+      link="f4_0" />
+    <child
+      link="f4_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="f4_2">
+    <inertial>
+      <origin
+        xyz="0.000251039265939858 0.0188015837348445 0.00174555143883007"
+        rpy="0 0 0" />
+      <mass
+        value="0.00985982115379089" />
+      <inertia
+        ixx="1.32328000726819E-06"
+        ixy="-1.56286580834735E-11"
+        ixz="6.1850321709214E-12"
+        iyy="4.59849392822945E-07"
+        iyz="1.41606699414314E-07"
+        izz="1.33350632551418E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 0.85" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://amazing2/meshes/f4_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="f4_2"
+    type="revolute">
+    <origin
+      xyz="0 0.052 0"
+      rpy="0.041103383479336 0 0" />
+    <parent
+      link="f4_1" />
+    <child
+      link="f4_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

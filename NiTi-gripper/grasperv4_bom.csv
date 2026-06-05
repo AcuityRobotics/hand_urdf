@@ -1,0 +1,15 @@
+Item,Quantity,Material,Description
+MR63-2RS,18,N/A, 3x6x2.5 mm miniature bearing
+XL430-W250,3,N/A,Motor
+2x16mm slotted steel pins,9,N/A,Pins
+M2 x 4mm brass threaded insert,9,Brass,Threaded insert
+Nitinol wire 0.8mm ,3,NiTi,Tendon wire
+M2.6 self-tapping screw,20,Steel,Motor mount screws
+M2 self-tapping screws,12,Steel,Pulley mount screws
+Base plate,1,PLA,Base plate
+Pulley,3,PLA,Pulley
+Palm,3,PLA,Palm link
+Plug,3,PLA,Plug link
+Prox,3,PLA,Prox link
+Mid,3,PLA,Mid link
+Dist,3,PLA,Dist link

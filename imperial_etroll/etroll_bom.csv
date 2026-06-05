@@ -1,0 +1,10 @@
+Part Name,Quantity,Material,Description
+Plate.STL,1,MJF,3D printable structural plate
+Palm_half.STL,1,MJF,3D printable half of the palm
+Base.STL,1,MJF,3D printable base structure
+Finger.STL,1,MJF,3D printable finger
+Pinion.STL,1,MJF,3D printable pinion gear
+Mount_dovetail_female.STL,1,MJF,3D printable female dovetail mount
+dovetail_male.STL,1,MJF,3D printable male dovetail mount
+Dynamixel XM430-W350,3,N/A,Actuators
+MGN9H linear guide rails,2,,Linear actuator rails

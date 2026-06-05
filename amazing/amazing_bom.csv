@@ -1,0 +1,24 @@
+Part Name,Quantity,Material,Description
+Finger Frame1,4,MJF,3D printed part
+Finger Frame2,4,MJF,3D printed part
+Proximal,4,MJF,3D printed part
+Distal,4,MJF,3D printed part
+Gimbal,4,MJF,3D printed part
+Link,4,MJF,3D printed part
+Spacer,8,MJF,3D printed part
+Length_Toolings,1,MJF,3D printed part
+Hand Plate,1,MJF,3D printed part
+Wrist Interface,1,MJF,3D printed part
+Proximal Shell,4,MJF,3D printed flexible part
+Distal Shell,4,MJF,3D printed flexible part
+Soft Shell,1,MJF,3D printed flexible part
+Top Shell,1,MJF,3D printed flexible part
+Feetech SCS0009 Servo,8,N/A,Servo motor
+Ball Joint M2,16,N/A,Ball joint
+M2 Threaded Rod L300mm,1,N/A,Threaded rod
+Axis D2x10,8,N/A,Shaft/axis
+Axis D2x16,8,N/A,Shaft/axis
+Bushing GFM 0608-04 (6mm ID / 8mm OD),8,N/A,Bushing
+Thermoplastic Screw 2.5x6,16,N/A,Fastener
+Thermoplastic Screw 2.5x8,30,N/A,Fastener
+Washer M2.5 OD 8mm (large series),4,N/A,Washer

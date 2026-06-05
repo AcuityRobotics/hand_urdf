@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="aero">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0129034933866917 3.57061446520855E-05 0.00467474199683585"
+        rpy="0 0 0" />
+      <mass
+        value="0.151146292228162" />
+      <inertia
+        ixx="0.000133620869211754"
+        ixy="-5.76572596692097E-06"
+        ixz="2.13665094576789E-06"
+        iyy="0.000106814894452109"
+        iyz="1.10227782562003E-05"
+        izz="0.000213847982310223" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="1_0">
+    <inertial>
+      <origin
+        xyz="-0.0157616290640478 -0.00358567934470254 0.0175768722174495"
+        rpy="0 0 0" />
+      <mass
+        value="0.00689729871001111" />
+      <inertia
+        ixx="9.93929883019657E-07"
+        ixy="-8.48000942855032E-09"
+        ixz="7.34706048049118E-08"
+        iyy="1.0093015687572E-06"
+        iyz="7.4989599004493E-08"
+        izz="2.53982451610596E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="1_0"
+    type="revolute">
+    <origin
+      xyz="-0.0393394245857936 -0.0461720754822862 0.00042381652828347"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="1_0" />
+    <axis
+      xyz="0.992090032889228 0.0695065968721907 0.104528463267656" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="1_1">
+    <inertial>
+      <origin
+        xyz="-0.0122194929152307 -0.00123487988101129 0.00755793496780745"
+        rpy="0 0 0" />
+      <mass
+        value="0.00264501040027889" />
+      <inertia
+        ixx="1.71028228994908E-07"
+        ixy="-2.02322486778444E-09"
+        ixz="8.46136786505571E-09"
+        iyy="1.89520967877256E-07"
+        iyz="7.42554263795807E-09"
+        izz="8.65189151018051E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="1_1"
+    type="revolute">
+    <origin
+      xyz="-0.00709075442937419 -0.0019557188360947 0.0424790439916632"
+      rpy="0.0177221401243358 0.00122493693289513 0.00187801953080774" />
+    <parent
+      link="1_0" />
+    <child
+      link="1_1" />
+    <axis
+      xyz="0.992090032889226 0.0695065968722168 0.104528463267655" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="1_2">
+    <inertial>
+      <origin
+        xyz="-0.0121583067482402 -0.00313910644085766 0.00955759562092692"
+        rpy="0 0 0" />
+      <mass
+        value="0.00286881487991541" />
+      <inertia
+        ixx="1.32361641015811E-07"
+        ixy="2.28012126472609E-09"
+        ixz="9.37184656046779E-09"
+        iyy="1.33730670591471E-07"
+        iyz="-2.17197616580308E-08"
+        izz="5.90101156128506E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/1_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="1_2"
+    type="revolute">
+    <origin
+      xyz="-0.00233190216111688 -0.000154305152993049 0.0218757103714512"
+      rpy="-0.0204544025544474 -0.00145510190940952 -0.00214047041120031" />
+    <parent
+      link="1_1" />
+    <child
+      link="1_2" />
+    <axis
+      xyz="0.992090032889226 0.0695065968722166 0.104528463267655" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="2_0">
+    <inertial>
+      <origin
+        xyz="-0.0122288211947646 -0.00290388977314435 0.0185307638816849"
+        rpy="0 0 0" />
+      <mass
+        value="0.00689730389934046" />
+      <inertia
+        ixx="9.99277877003023E-07"
+        ixy="-4.05769671660245E-09"
+        ixz="3.7020802046095E-08"
+        iyy="1.01013924172246E-06"
+        iyz="7.12946444790309E-08"
+        izz="2.47797241465257E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="2_0"
+    type="revolute">
+    <origin
+      xyz="-0.0193223929014127 -0.0583152412631974 0.00230232315195157"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="2_0" />
+    <axis
+      xyz="0.998021196624068 0.0348516681551969 0.0523359562429428" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="2_1">
+    <inertial>
+      <origin
+        xyz="-0.00991757565277805 -0.000724397834917843 0.00829101833821569"
+        rpy="0 0 0" />
+      <mass
+        value="0.00264500658338707" />
+      <inertia
+        ixx="1.7158875820288E-07"
+        ixy="-9.89295580622701E-10"
+        ixz="4.26227793211356E-09"
+        iyy="1.89665531460943E-07"
+        iyz="6.99694367438669E-09"
+        izz="8.58131570590367E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="2_1"
+    type="revolute">
+    <origin
+      xyz="-0.00414123981373518 -0.00160087000280672 0.042839181907112"
+      rpy="0.0178272171696774 0.000614164494727223 0.000940338465431739" />
+    <parent
+      link="2_0" />
+    <child
+      link="2_1" />
+    <axis
+      xyz="0.998021196624067 0.0348516681552232 0.0523359562429428" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="2_2">
+    <inertial>
+      <origin
+        xyz="-0.00974512906247734 -0.00262341355008144 0.0102955317494016"
+        rpy="0 0 0" />
+      <mass
+        value="0.00286880950161031" />
+      <inertia
+        ixx="1.33220702261439E-07"
+        ixy="1.17527843335942E-09"
+        ixz="4.71709452168647E-09"
+        iyy="1.3348796223502E-07"
+        iyz="-2.22629778919122E-08"
+        izz="5.83937418175888E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/2_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="2_2"
+    type="revolute">
+    <origin
+      xyz="-0.00146140921071287 -4.19804767674303E-05 0.0219537268112065"
+      rpy="-0.0205778552784913 -0.000729660017095717 -0.00107164784979129" />
+    <parent
+      link="2_1" />
+    <child
+      link="2_2" />
+    <axis
+      xyz="0.998021196624067 0.0348516681552232 0.0523359562429418" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="3_0">
+    <inertial>
+      <origin
+        xyz="-0.0075100237362195 -0.00247525170776625 0.0191503075229903"
+        rpy="0 0 0" />
+      <mass
+        value="0.00689714767089962" />
+      <inertia
+        ixx="1.00105338840978E-06"
+        ixy="-7.7473380687206E-12"
+        ixz="4.88744565037112E-12"
+        iyy="1.01039832785848E-06"
+        iyz="7.00591126839393E-08"
+        izz="2.4570762037068E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="3_0"
+    type="revolute">
+    <origin
+      xyz="0 -0.0582998130982996 0.00308192985448157"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="3_0" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="3_1">
+    <inertial>
+      <origin
+        xyz="-0.00741000628846612 -0.00037782763632879 0.00879971036807659"
+        rpy="0 0 0" />
+      <mass
+        value="0.00264500553861606" />
+      <inertia
+        ixx="1.71777404380458E-07"
+        ixy="2.35375039269279E-12"
+        ixz="-1.64120501562935E-12"
+        iyy="1.89712763521871E-07"
+        iyz="6.85320734566975E-09"
+        izz="8.55770181992596E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="3_1"
+    type="revolute">
+    <origin
+      xyz="0 -0.00145536761083149 0.0429999999999992"
+      rpy="0.0178622724594615 0 0" />
+    <parent
+      link="3_0" />
+    <child
+      link="3_1" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="3_2">
+    <inertial>
+      <origin
+        xyz="-0.00742804405149061 -0.00229159725120851 0.0107938140517291"
+        rpy="0 0 0" />
+      <mass
+        value="0.00286879892004499" />
+      <inertia
+        ixx="1.33508466307182E-07"
+        ixy="7.00832418399926E-12"
+        ixz="8.05039493669003E-13"
+        iyy="1.33445664017383E-07"
+        iyz="-2.23759475736902E-08"
+        izz="5.81464502552329E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/3_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="3_2"
+    type="revolute">
+    <origin
+      xyz="-8.21595911988713E-05 0 0.0220001543252506"
+      rpy="-0.0206190444000853 0 0" />
+    <parent
+      link="3_1" />
+    <child
+      link="3_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="4_0">
+    <inertial>
+      <origin
+        xyz="0.00873172434887222 -0.00278157067481253 0.0187141921675561"
+        rpy="0 0 0" />
+      <mass
+        value="0.00689727911900251" />
+      <inertia
+        ixx="9.99258923988681E-07"
+        ixy="4.05415625568769E-09"
+        ixz="-3.70097000939822E-08"
+        iyy="1.01015135750375E-06"
+        iyz="7.13074772762687E-08"
+        izz="2.47785442894681E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="4_0"
+    type="revolute">
+    <origin
+      xyz="0.00759950443274258 -0.0581318381267945 0.00218019095627987"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="4_0" />
+    <axis
+      xyz="0.998021196624069 -0.0348516681551842 -0.0523359562429425" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="4_1">
+    <inertial>
+      <origin
+        xyz="0.00755917667941717 -0.000642035052008212 0.00841469776754164"
+        rpy="0 0 0" />
+      <mass
+        value="0.00264500800556095" />
+      <inertia
+        ixx="1.71588621541424E-07"
+        ixy="9.93921500624786E-10"
+        ixz="-4.26536627267678E-09"
+        iyy="1.89665625123146E-07"
+        iyz="6.9968977474414E-09"
+        izz="8.58134202867448E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="4_1"
+    type="revolute">
+    <origin
+      xyz="0.00300250336993436 -0.00156110444994033 0.0428988969321"
+      rpy="0.0178272171696718 -0.000614164494725835 -0.000940338465554549" />
+    <parent
+      link="4_0" />
+    <child
+      link="4_1" />
+    <axis
+      xyz="0.998021196624068 -0.0348516681551887 -0.0523359562429438" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="4_2">
+    <inertial>
+      <origin
+        xyz="0.00749712228949739 -0.00254502851270579 0.0104132650741636"
+        rpy="0 0 0" />
+      <mass
+        value="0.0028688084863477" />
+      <inertia
+        ixx="1.33221973735726E-07"
+        ixy="-1.16079283327888E-09"
+        ixz="-4.71540178869085E-09"
+        iyy="1.3348782351499E-07"
+        iyz="-2.22635464117812E-08"
+        izz="5.83949185484812E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/4_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="4_2"
+    type="revolute">
+    <origin
+      xyz="0.00115101346755463 -3.1141218569682E-05 0.0219700038783537"
+      rpy="-0.0205778552784913 0.000729660017094323 0.00107164784979131" />
+    <parent
+      link="4_1" />
+    <child
+      link="4_2" />
+    <axis
+      xyz="0.998021196624069 -0.0348516681551579 -0.0523359562429429" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="5_0">
+    <inertial>
+      <origin
+        xyz="0.00250854991666511 -0.0192740184243694 -0.000577057373825006"
+        rpy="0 0 0" />
+      <mass
+        value="0.0112212826939696" />
+      <inertia
+        ixx="1.37239168684344E-06"
+        ixy="3.07768977828376E-07"
+        ixz="-2.49823339213696E-07"
+        iyy="1.19642191017829E-06"
+        iyz="2.30553659892364E-07"
+        izz="1.49805173194586E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="5_0"
+    type="revolute">
+    <origin
+      xyz="0.0347747031224083 0.014985225313606 -0.0158351717023788"
+      rpy="1.56845132377084 0.00205881678044051 -0.00319306631444224" />
+    <parent
+      link="base_link" />
+    <child
+      link="5_0" />
+    <axis
+      xyz="0.524699577574363 0.714917845485349 0.462150221789271" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="5_1">
+    <inertial>
+      <origin
+        xyz="0.00100527892643325 -0.0174450792932297 -0.00192166696542602"
+        rpy="0 0 0" />
+      <mass
+        value="0.00692652159135384" />
+      <inertia
+        ixx="6.60364125405979E-07"
+        ixy="1.24851476800189E-07"
+        ixz="-1.35737838359861E-07"
+        iyy="5.64423946724989E-07"
+        iyz="8.49071497911401E-08"
+        izz="7.33683495446033E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="5_1"
+    type="revolute">
+    <origin
+      xyz="0.023398827795951 -0.0247394287366027 0.0117046444546072"
+      rpy="-0.00911911771657093 -0.0125299940150063 -0.00801916112804946" />
+    <parent
+      link="5_0" />
+    <child
+      link="5_1" />
+    <axis
+      xyz="0.524699577574394 0.714917845485454 0.462150221789073" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="5_2">
+    <inertial>
+      <origin
+        xyz="-0.00760751479062233 -0.0292005622149165 -0.00533345639259648"
+        rpy="0 0 0" />
+      <mass
+        value="0.00688553749237443" />
+      <inertia
+        ixx="3.56580145934911E-07"
+        ixy="1.31725304426903E-07"
+        ixz="-3.89453931370513E-08"
+        iyy="4.02598121512841E-07"
+        iyz="3.66401668312303E-09"
+        izz="5.40210763821605E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://aero/meshes/5_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="5_2"
+    type="revolute">
+    <origin
+      xyz="0.0267086735988907 -0.010392671576438 0.0169112013322939"
+      rpy="0.00285148183614749 0.00387500537584519 0.00251279409450984" />
+    <parent
+      link="5_1" />
+    <child
+      link="5_2" />
+    <axis
+      xyz="0.524699577574298 0.714917845485546 0.462150221789039" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

@@ -1,0 +1,13 @@
+Item,Quantity,Material,Description
+Link1_xl430,3,MJF,Finger link 1
+Link2_xl430,3,MJF,Finger link 2
+Base,3,MJF,Finger base
+DovetailToBottom,1,MJF,Dovetail mount
+MoldHalf_Sphere,6,MJF,Fingertip casting mold
+"4-40 7/16"" flat head screw",6,N/A,Fastener
+4-40 tapered heat-set inserts,6,N/A,Heat-set insert
+"1/8"" × 5/16"" dowel pin",6,N/A,Dowel pin
+Dynamixel XM-430 W350-R,3,N/A,Rotary servo
+Dynamixel XL-430 W250-T,3,N/A,Rotary servo
+USB2Dynamixel / U2D2 adapter,1,N/A,Servo adapter
+Dragon Skin 30 silicone,1,N/A,Finger pad rubber
