@@ -13,11 +13,13 @@ This repository is a collection of robotic hands/manipulators/end-effectors in U
 | DexHand | IoT Design Shop | [Source](https://github.com/iotdesignshop/dexhand-mechanical-build/tree/main) | ✅ | CC BY-NC-SA 4.0 |
 | InMoov hand | InMoov | [Source](https://inmoov.fr/inmoov-hand/#download) | ✅ | CC BY-NC 3.0 |
 | Leaphand | Leap Hand | [Source](https://v1.leaphand.com/leap_cad) | ✅ | CC BY-NC-SA |
+| Robot Nano Hand | Robot Nano Hand | [Source](https://www.thingiverse.com/thing:3648120) | ✅ | CC BY-SA 3.0 |
 | SSG-48 adaptive electric gripper | Petar Crnjak | [Source](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper) | ✅ | Apache 2.0 |
+| Open-source 2DOF Parallel Gripper | SimpleGripper | [Source](https://www.instructables.com/SimpleGripper-an-Open-source-Parallel-Gripper-With/) | ✅ | CC BY-NC-SA 4.0 |
 | OpenGrip | Clay Haight | [Source](https://github.com/clayhaight01/OpenGrip/tree/master/Manufacturing%20Files) | ✅ | CC BY-SA 4.0 |
 | E-Troll Gripper | Imperial College London | [Source](https://www.thingiverse.com/thing:5798680) | ✅ | CC BY 4.0 |
 | AR Gripper | Machinekoder | [Source](https://www.printables.com/model/657807-ar-gripper-open-hardware-adaptive-electric-paralle) | ✅ | |
-| Grasper | Acuity Robotics | | ✅ | |
+| NiTi Gripper (Grasper) | Acuity Robotics | | ✅ | |
 | Sphinx Hand | Yale GRAB Lab | | ✅ | |
 | Amazing Hand | Pollen Robotics | [Source](https://github.com/pollen-robotics/AmazingHand) | ✅ | CC BY 4.0 |
 | Aero Hand Open | Tether IA | [Source](https://github.com/TetherIA/aero-hand-open/tree/main/hardware/CAD) | ✅ | CC BY-SA 4.0 |
