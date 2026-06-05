@@ -1,5 +1,3 @@
-# hand_urdf
-
 | Name | Company | Original URL | BOM | License |
 |------|---------|--------------|-----|----------|
 | Model Q | Yale GRAB Lab | [Source](https://github.com/grablab/openhand-hardware/tree/master/model%20q) | ✅ | CC BY-NC 3.0 |
@@ -28,6 +26,6 @@
 | Shadow Hand | Shadow Robot Company | [Source](https://github.com/dexsuite/dex-urdf) | | |
 | SCHUNK SVH Hand | SCHUNK | [Source](https://github.com/dexsuite/dex-urdf) | | |
 | DClaw | OpenAI | [Source](https://github.com/dexsuite/dex-urdf) | | |
-| Crafthand | Craftworks | [Source](https://github.com/dexsuite/dex-urdf) | | |
+| CRAFT Hand | University of Illinois Urbana-Champaign | [Source](https://craft-hand.github.io/) | | |
 | Barrett Hand | Barrett Technology | [Source](https://github.com/dexsuite/dex-urdf) | | |
 | Ability Hand | Psyonic | [Source](https://github.com/dexsuite/dex-urdf) | | |
