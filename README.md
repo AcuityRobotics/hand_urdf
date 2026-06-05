@@ -20,7 +20,7 @@ This repository is a collection of robotic hands/manipulators/end-effectors in U
 | E-Troll Gripper | Imperial College London | [Source](https://www.thingiverse.com/thing:5798680) | ✅ | CC BY 4.0 |
 | AR Gripper | Machinekoder | [Source](https://www.printables.com/model/657807-ar-gripper-open-hardware-adaptive-electric-paralle) | ✅ | |
 | NiTi Gripper (Grasper) | Acuity Robotics | | ✅ | |
-| Sphinx Hand | Yale GRAB Lab | | ✅ | |
+| Sphinx Hand | Yale GRAB Lab | [Source](https://github.com/grablab/openhand-hardware/tree/master/sphinx%20hand) | ✅ | |
 | Amazing Hand | Pollen Robotics | [Source](https://github.com/pollen-robotics/AmazingHand) | ✅ | CC BY 4.0 |
 | Aero Hand Open | Tether IA | [Source](https://github.com/TetherIA/aero-hand-open/tree/main/hardware/CAD) | ✅ | CC BY-SA 4.0 |
 | EN02-OP | Westwood Robotics | [Source](https://github.com/Westwood-Robotics/EN02-OP/tree/main/Design) | ✅ | GPL-3.0 |
