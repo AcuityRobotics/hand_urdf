@@ -3,7 +3,6 @@ This repository is a collection of robotic hands/manipulators/end-effectors in U
 | Name | Company | Original URL | BOM | License |
 |------|---------|--------------|-----|----------|
 | 2F-85 | Robotiq | [Source](https://github.com/google-deepmind/mujoco_menagerie/tree/main/robotiq_2f85) | | Proprietary |
-| NiTi Gripper (Grasper) | Acuity Robotics | | ✅ | |
 | Ability Hand | Psyonic | [Source](https://github.com/dexsuite/dex-urdf) | | MIT |
 | SSG-48 adaptive electric gripper | Petar Crnjak | [Source](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper) | ✅ | Apache 2.0 |
 | Aero Hand Open | Tether IA | [Source](https://github.com/TetherIA/aero-hand-open/tree/main/hardware/CAD) | ✅ | CC BY-SA 4.0 |
