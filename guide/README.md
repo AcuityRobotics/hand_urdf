@@ -39,3 +39,17 @@ The converter takes the information contained within the MJCF definition and con
 The meshes defined within the MJCF are used for both the visual and collision meshes within the URDF. Rather than directly copying the inertial properties from the MJCF, a specific material density is assigned and used with the mesh geometry to recalculate the mass, centre of mass and inertia of each link. This allows the physical properties to be generated consistently with the material assumptions used in Method 1. In the event that multiple meshes are used for a single link, their physical properties are combined.
 
 Joint equality constraints within the MJCF are converted into mimic joints, retaining their original multiplier and offset. Once converted, all of the links and joints are connected into a single URDF hierarchy.
+
+## Verification
+
+To verify that the export process has finished with no obvious issues, two visual checks are performed using the PyBullet simulator.
+
+The first check tests for correct joint motion. When using the SOLIDWORKS to URDF exporter, especially when using the automatic joint detection, there is a chance that the joint axes are in the wrong location or direction. This is visible when links move in unnatural ways, making it clear that a joint axis is misaligned or incorrect.
+
+![Movement1](images/movement1.png)
+
+![Movement2](images/movement2.png)
+
+The second check verifies that the inertia data is generally correct by drawing inertia ellipsoids obtained from the URDF inertia data. The ellipsoids should be reasonably positioned and oriented relative to the physical links of the model. If there are ellipsoids floating in space or massively skewed when compared to the model, then something has likely gone wrong during the exporting process.
+
+![Inertia](images/inertia.png)
