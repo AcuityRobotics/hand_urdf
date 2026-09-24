@@ -2,15 +2,15 @@
 
 ## Method 1 - SOLIDWORKS to URDF plugin
 
-Using the SOLIDWORKS to URDF plugin, it is possible to convert a SOLIDWORKS assembly into a URDF. This method takes the material data assigned to each individual part and uses it to generate the relevant URDF physical properties, such as mass, centre of mass and inertia.
+Using the SOLIDWORKS to URDF plugin, it is possible to convert a SOLIDWORKS assembly into a URDF (https://wiki.ros.org/sw_urdf_exporter, https://www.solidworks.com/partner-product/solidworks-urdf-exporter). This method takes the material data assigned to each individual part and uses it to generate the relevant URDF physical properties, such as mass, centre of mass and inertia.
 
 First, create or open a SOLIDWORKS assembly. Fully mate the joints, then align them in a resting pose where each joint would be recognised as being at its zero position.
 
-Open the SOLIDWORKS to URDF plugin and manually assign the number of links and their respective joints.
+Open the SOLIDWORKS to URDF plugin and manually assign the number of links and their respective joints. This is done by manually constructing the link tree and selecting bodies within the assembly view.
 
 ![Tree](images/tree.png)
 
-The plugin is capable of automatically detecting the location and orientation of joints by inferring them from the mates within the assembly. However, this method can be unreliable depending on the assembly. It is possible to gauge the success based on the axes and origins added by the plugin.
+The plugin is capable of automatically detecting the location and orientation of joints by inferring them from the mates within the assembly. However, this method can be unreliable depending on the assembly, especially if the assembly contains additional nested assemblies. It is possible to gauge the success based on the axes and origins added by the plugin. This happens after the export button is clicked, and the plugin will automatically add axes and origins for joints that don't have one specified.
 
 ![Axes](images/axes.png)
 
@@ -34,7 +34,7 @@ Depending on the origin of some mesh/part files, older versions of SOLIDWORKS ma
 
 The first method requires a SOLIDWORKS assembly in order to work. However, many robotic manipulators do not have their original CAD models available as SOLIDWORKS assemblies. Another widely used robot definition format is MJCF (MuJoCo XML), used by the MuJoCo simulator. MJCF can contain much of the information required to construct a URDF, allowing a detailed URDF to be generated from an existing MJCF definition without requiring the original SOLIDWORKS assembly.
 
-The converter takes the information contained within the MJCF definition and converts it into the equivalent URDF properties. Bodies within the MJCF are converted into links, with their respective joints retaining their position, orientation, axis and joint limits. Bodies that are only used for positioning are ignored, with their position and orientation instead being applied to their respective child links.
+The converter (mjcf_to_urdf.py) takes the information contained within the MJCF definition and converts it into the equivalent URDF properties. Bodies within the MJCF are converted into links, with their respective joints retaining their position, orientation, axis and joint limits. Bodies that are only used for positioning are ignored, with their position and orientation instead being applied to their respective child links.
 
 The meshes defined within the MJCF are used for both the visual and collision meshes within the URDF. Rather than directly copying the inertial properties from the MJCF, a specific material density is assigned and used with the mesh geometry to recalculate the mass, centre of mass and inertia of each link. This allows the physical properties to be generated consistently with the material assumptions used in Method 1. In the event that multiple meshes are used for a single link, their physical properties are combined.
 
