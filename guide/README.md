@@ -40,6 +40,8 @@ The meshes defined within the MJCF are used for both the visual and collision me
 
 Joint equality constraints within the MJCF are converted into mimic joints, retaining their original multiplier and offset. Once converted, all of the links and joints are connected into a single URDF hierarchy.
 
+For this reason, four-bar linkages can be approximated using this conversion method by representing the mechanism as an open kinematic chain with independently actuated joints. In this approach, all joints must be commanded to follow the same motion as the original actuated joint. This allows the mechanism to approximate the motion of a four-bar linkage despite URDF's inability to represent closed kinematic chains directly.
+
 ## Verification
 
 To verify that the export process has finished with no obvious issues, two visual checks are performed using the PyBullet simulator.
@@ -53,3 +55,7 @@ The first check tests for correct joint motion. When using the SOLIDWORKS to URD
 The second check verifies that the inertia data is generally correct by drawing inertia ellipsoids obtained from the URDF inertia data. The ellipsoids should be reasonably positioned and oriented relative to the physical links of the model. If there are ellipsoids floating in space or massively skewed when compared to the model, then something has likely gone wrong during the exporting process.
 
 ![Inertia](images/inertia.png)
+
+### Known issues
+
+Currently, both methods do not export joint limits. For the Solidworks to URDF exporter, this information is not quickly exported and relies on the human to manually assess and insert every joint limit value. In the MuJoCo converter, joint limits are often defined within the MJCF file, either explicitly or through default classes. However, the current converter does not extract this information and instead assigns generic joint limits. As a result, these values must also be manually corrected after conversion.
