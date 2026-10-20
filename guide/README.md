@@ -42,6 +42,15 @@ Joint equality constraints within the MJCF are converted into mimic joints, reta
 
 For this reason, four-bar linkages can be approximated using this conversion method by representing the mechanism as an open kinematic chain with independently actuated joints. In this approach, all joints must be commanded to follow the same motion as the original actuated joint. This allows the mechanism to approximate the motion of a four-bar linkage despite URDF's inability to represent closed kinematic chains directly.
 
+See below, on the left an example of when each joint is a 4-bar linkage is not identical versus on the right where each joint is identical.
+
+<table>
+  <tr>
+    <td><img src="images/4bar_1.png" width="350"></td>
+    <td><img src="images/4bar_2.png" width="350"></td>
+  </tr>
+</table>
+
 ## Verification
 
 To verify that the export process has finished with no obvious issues, two visual checks are performed using the PyBullet simulator.
@@ -59,3 +68,5 @@ The second check verifies that the inertia data is generally correct by drawing 
 ### Known issues
 
 Currently, both methods do not export joint limits. For the Solidworks to URDF exporter, this information is not quickly exported and relies on the human to manually assess and insert every joint limit value. In the MuJoCo converter, joint limits are often defined within the MJCF file, either explicitly or through default classes. However, the current converter does not extract this information and instead assigns generic joint limits. As a result, these values must also be manually corrected after conversion.
+
+The four-bar linkage solution provided by the MJCF converter offers a better approximation than the SolidWorks to URDF extension. However, for the four-bar linkages to function using this approach, all joints in the mechanism must be independently actuated. This can lead to inaccurate and unrealistic behaviour, as the mechanical coupling between joints is not preserved.
